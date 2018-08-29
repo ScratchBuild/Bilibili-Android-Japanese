@@ -96,8 +96,6 @@
     <string name="sobot_after_consultation_to_evaluate_custome_service">You need to ask questions before feedback</string>
     <string name="sobot_already_save_to_picture">Saved to system albums</string>
     <string name="sobot_already_transfer_to_customer_service">You have turned artificial</string>
-    <string name="sobot_app_name">Sobot_sdk</string>
-    <string name="sobot_appkey">07a5ff1050c047c4b9d3c57eeb7ced29</string>
     <string name="sobot_appkey_is_null">Sobot Appkey is null</string>
     <string name="sobot_attach_take_pic">Camera</string>
     <string name="sobot_back">Back</string>

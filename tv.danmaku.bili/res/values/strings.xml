@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ACD_BufferingView">ACD_BufferingView</string>
-    <string name="ACD_ControllerRoot">ACD_ControllerRoot</string>
-    <string name="ACD_ControllerView">ACD_ControllerView</string>
-    <string name="ACD_DanmakuInputView">ACD_DanmakuInputView</string>
-    <string name="ACD_DanmakuView">ACD_DanmakuView</string>
-    <string name="ACD_LockView">ACD_LockView</string>
-    <string name="ACD_PreLoadingView">ACD_PreloadingView</string>
-    <string name="ACD_Underlay">ACD_Underlay</string>
-    <string name="ACD_VideoRoot">ACD_VideoRoot</string>
-    <string name="ACD_VideoView">ACD_VideoView</string>
     <string name="DanmakuPlayer_danmaku_engine">弹幕引擎</string>
     <string name="Mobile_3gnet">联通3gnet</string>
     <string name="Mobile_3gnet_f">联通</string>
@@ -27,7 +17,6 @@
     <string name="Mobile_uninet_f">联通</string>
     <string name="Mobile_uniwap">联通uniwap</string>
     <string name="Mobile_uniwap_f">联通</string>
-    <string name="PlayMode_android_player_hw">v1 HW</string>
     <string name="PlayerBreakPoint_continue_play">跳转播放</string>
     <string name="PlayerBreakPoint_play_next_tips">即将为您播放下一个</string>
     <string name="PlayerBreakPoint_restart_play">重新开始</string>
@@ -64,7 +53,6 @@
     <string name="PlayerChargeTips_preview_vip_1080_bangumi">成为大会员可解锁所有清晰度</string>
     <string name="PlayerChargeTips_to_be_vip_first_underline">&lt;u>成为大会员抢先看 >>&lt;/u></string>
     <string name="PlayerChargeTips_what_is_vip">什么是大会员?</string>
-    <string name="PlayerController_default_duration">00:00/00:00</string>
     <string name="PlayerController_gesture_seek">松开手指 取消进退</string>
     <string name="PlayerController_tips_lock_player">锁屏</string>
     <string name="PlayerController_tips_media_quality_high">高清</string>
@@ -157,14 +145,12 @@
     <string name="PlayerSdkInitialization">初始化播放组件</string>
     <string name="PlayerSdkInitializationFail">组件加载失败,请重试</string>
     <string name="PlayerStageStatus_disabled">【禁止】</string>
-    <string name="PlayerStageStatus_ellipsis">…</string>
     <string name="PlayerStageStatus_enabled">【允许】</string>
     <string name="PlayerStageStatus_failed">【失败】</string>
     <string name="PlayerStageStatus_hide">【隐藏】</string>
     <string name="PlayerStageStatus_live">【直播】</string>
     <string name="PlayerStageStatus_succeeded">【完成】</string>
-    <string name="PlayerStageStatus_succeeded_fmt1_http_forwarded">"【重定向:%d】
-"</string>
+    <string name="PlayerStageStatus_succeeded_fmt1_http_forwarded">"【重定向:%d】"</string>
     <string name="PlayerStage_check_danmaku_text_style">弹幕装填类型</string>
     <string name="PlayerStage_check_danmaku_visibility">弹幕显示状态</string>
     <string name="PlayerStage_fmt1_bitrate_found">发现视频源(参考码率 %dkbps)</string>
@@ -242,12 +228,8 @@
     <string name="Player_danmaku_options_pannel_value_danmaku_max_on_screen_minimum">自动</string>
     <string name="Player_danmaku_options_pannel_value_danmaku_orientation_horizontal">水平</string>
     <string name="Player_danmaku_options_pannel_value_danmaku_orientation_vertical">垂直</string>
-    <string name="Player_danmaku_options_pannel_value_danmaku_speed_factor_fmt">%.2f</string>
     <string name="Player_danmaku_options_pannel_value_danmaku_speed_factor_minimum">默认</string>
-    <string name="Player_danmaku_options_pannel_value_danmaku_textsize_fmt">%.2f</string>
     <string name="Player_danmaku_options_pannel_value_danmaku_textsize_minimum">标准</string>
-    <string name="Player_danmaku_options_pannel_value_danmaku_transparency_fmt">%d%%</string>
-    <string name="Player_danmaku_realname_format">%s :</string>
     <string name="Player_danmaku_realname_tips">为了加强弹幕秩序，即日起，试行番剧区弹幕发送者昵称可查询。（此前弹幕不受影响）</string>
     <string name="Player_danmaku_realname_tips_i_know">我知道了</string>
     <string name="Player_danmaku_recall">撤回</string>
@@ -468,8 +450,6 @@
     <string name="app_update_fail_http">网络异常，请稍后重新下载</string>
     <string name="app_update_fail_verify">APK校验失败，请重新下载</string>
     <string name="app_update_verify">APK校验中</string>
-    <string name="appbar_fix_bounce_behavior">tv.danmaku.bili.ui.main2.basic.FixBounceBehavior</string>
-    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appeal_fail_too_frequently">举报过于频繁，请稍后重试</string>
     <string name="appeal_failed">举报失败</string>
     <string name="appeal_success">举报成功，谢谢您的贡献～</string>
@@ -607,8 +587,6 @@
     <string name="bangumi_common_section_content_not_watched">尚未观看</string>
     <string name="bangumi_common_section_content_watched">看到</string>
     <string name="bangumi_common_section_header_recommend">番剧推荐</string>
-    <string name="bangumi_common_underline">&lt;u>%s&lt;/u></string>
-    <string name="bangumi_common_underline_goto">&lt;u>%s>>&lt;/u></string>
     <string name="bangumi_detail_action_coin">投币</string>
     <string name="bangumi_detail_action_download">缓存</string>
     <string name="bangumi_detail_action_download_forbidden">版权受限</string>
@@ -652,10 +630,7 @@
     <string name="bangumi_feedback_activity_error">活动（承包送挂件等）</string>
     <string name="bangumi_feedback_av_async">音画不同步</string>
     <string name="bangumi_feedback_black_screen">黑屏</string>
-    <string name="bangumi_feedback_content_id">（%s）</string>
     <string name="bangumi_feedback_content_prefix">反馈</string>
-    <string name="bangumi_feedback_content_suffix">：</string>
-    <string name="bangumi_feedback_content_title">《%s》</string>
     <string name="bangumi_feedback_failed">"抱歉，您的反馈迷路了…
 请重新提交m(_ _;)m"</string>
     <string name="bangumi_feedback_guide_hint">付费相关紧急问题请点击联络在线客服</string>
@@ -879,7 +854,6 @@
     <string name="bangumi_review_index_hot_media_title">近期热评</string>
     <string name="bangumi_review_index_my_review">我的</string>
     <string name="bangumi_review_index_ranking_title">排行榜</string>
-    <string name="bangumi_review_index_recommend_review_time_format">· %1$s</string>
     <string name="bangumi_review_index_title">点评</string>
     <string name="bangumi_review_level_below2">你的等级未达到2级，暂时无法发表</string>
     <string name="bangumi_review_level_below4">你的等级未达到4级，暂时无法发表</string>
@@ -961,7 +935,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="bangumi_review_watch_all_short_review">查看全部 %d 条短评</string>
     <string name="bangumi_review_write_long_review">写长评</string>
     <string name="bangumi_root_check_switch_quality_fail">根据版权方要求，root设备不可观看更高清晰度</string>
-    <string name="bangumi_score_format">%1$.1f</string>
     <string name="bangumi_search_result_button_play">播放</string>
     <string name="bangumi_search_result_rating_count">%1$s人</string>
     <string name="bangumi_search_result_score">分</string>
@@ -1005,7 +978,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="bangumi_sponsor_result_point">积分&lt;font color=#ffb726> +%s &lt;/font></string>
     <string name="bangumi_sponsor_result_skip">跳过留言直接分享>></string>
     <string name="bangumi_sponsor_result_success">承包成功</string>
-    <string name="bangumi_sponsor_result_uid">UID：%s</string>
     <string name="bangumi_sponsor_result_valid_time">感谢承包！您已获得限定挂件&lt;br/>有效期为&lt;font color=#ffb726> %s &lt;/font>~</string>
     <string name="bangumi_subscribe_success">自己追的番就要好好看完哟\\^o^/</string>
     <string name="bangumi_timeline_all">全部</string>
@@ -1067,7 +1039,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="bili_channel_live_name">直播</string>
     <string name="bili_delete_dialog_message">重新建立同样的愿望，礼物进度会从头计算</string>
     <string name="bili_delete_dialog_title">确认删除这个愿望吗？</string>
-    <string name="bili_ive_guard_num_max">999+</string>
     <string name="bili_live_area_rank">元气排行：</string>
     <string name="bili_live_room_recommend">推荐</string>
     <string name="bili_live_tips_gold_not_enough">当前金瓜子余额不足，是否去充值？</string>
@@ -1075,7 +1046,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="bili_live_wish_add">+ 增加心愿</string>
     <string name="bili_live_wish_gold_total">总计</string>
     <string name="bili_live_wish_tips">赠送礼物可以帮助主播实现心愿哦(｀・ω・´)</string>
-    <string name="bili_player_share_download_url">http://d.bilibili.com/download_app.html?bsource=share_weibo</string>
     <string name="bili_player_share_video_content_with_play_count">小伙伴们已观看%s次，快进来瞅瞅~╮(￣▽￣)╭</string>
     <string name="bili_player_share_video_content_with_play_count_pgc">小伙伴们已观看%1$s次，快进来瞅瞅哦(￣▽￣)~*</string>
     <string name="bili_player_share_video_content_with_play_count_short">[小伙伴们已观看%s次]</string>
@@ -1147,8 +1117,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="blacklist_nick_name">黑名单用户</string>
     <string name="blacklist_operate_failed_default">操作失败</string>
     <string name="blacklist_operate_failed_default_fmt">操作失败: %s</string>
-    <string name="blc_device_dpi">hdpi</string>
-    <string name="blik_pkgname">com.bilibili.bilibililive</string>
     <string name="blink_number_prefix">blink号: %s</string>
     <string name="block_banned_fail">禁言失败</string>
     <string name="block_banned_success">禁言成功，将在UP主所有视频中禁言此用户</string>
@@ -1172,8 +1140,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="blocked_message">该用户的评论已被你屏蔽</string>
     <string name="blocked_operation_msg">由于该用户隐私设置，你无法操作</string>
     <string name="blocked_user">黑名单用户</string>
-    <string name="bottom_navigation_behavior">com.bilibili.lib.homepage.behavior.BottomNavigationBehavior</string>
-    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="bplayer_ad_countdown_text">&lt;font color=#fb7299>%1$s&lt;/font>&lt;font color=#ffffff> 广告&lt;/font></string>
     <string name="bplayer_ad_countdown_text_skip">&lt;font color=#fb7299>%1$s&lt;/font>&lt;font color=#ffffff> 跳过&lt;/font></string>
     <string name="bplayer_quality_1080_vip_tips">成为大会员，即可解锁本片所有清晰度</string>
@@ -1291,7 +1257,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="charge_fmt_desc">"订单号:%1$s
 UID:%2$s"</string>
     <string name="charge_fmt_prompt">共消耗 &lt;font color=#fb7299>¥%1$s&lt;/font>，充电后您将获得 &lt;font color=#fb7299>%2$s点经验&lt;/font></string>
-    <string name="charge_help">http://www.bilibili.com/html/help.html#r1_2</string>
     <string name="charge_i_know">知道啦~</string>
     <string name="charge_loading">加载中...</string>
     <string name="charge_min_limit">最小充电数量是%d个哦 o(n_n)o</string>
@@ -1303,7 +1268,6 @@ UID:%2$s"</string>
     <string name="charge_option_4">800个电池</string>
     <string name="charge_parse_order_fail">解析订单信息失败了</string>
     <string name="charge_pay">为TA充电</string>
-    <string name="charge_plan_user_agreement">http://www.bilibili.com/html/charge_plan_user_agreement.html</string>
     <string name="charge_prompt">共消耗 &lt;font color=#fb7299>¥%1$s&lt;/font>，充电后您将获得 &lt;font color=#fb7299>%2$s点经验&lt;/font></string>
     <string name="charge_prompt_section">共消耗 &lt;font color=#fb7299>¥%1$s&lt;/font>，充电后您将获得 &lt;font color=#fb7299>%2$s点经验&lt;/font></string>
     <string name="charge_rank">查看榜单</string>
@@ -1369,9 +1333,7 @@ UID:%2$s"</string>
     <string name="clip_tip_upload_free_data">你正在使用免流卡上传小视频哦，不消耗流量</string>
     <string name="clip_uncollect_fail">取消收藏失败</string>
     <string name="clip_uncollect_success">收藏取消了=，=</string>
-    <string name="clip_video_container_tag">view_auto_play_container</string>
     <string name="clip_video_replay">重播</string>
-    <string name="clip_video_tag">view_auto_play_tag</string>
     <string name="close">关闭</string>
     <string name="close_ensure">确定</string>
     <string name="close_live">断开直播</string>
@@ -1398,7 +1360,6 @@ UID:%2$s"</string>
     <string name="collection">收藏</string>
     <string name="collection_cancel">取消收藏</string>
     <string name="collection_pic">收藏图片</string>
-    <string name="colon">：</string>
     <string name="column">专栏</string>
     <string name="column_appeal_desc">请补充问题类型和出现位置等详细信息</string>
     <string name="column_appeal_fmt_title">你觉得这篇专栏文章(cv%s)有什么问题?（必选）</string>
@@ -1540,20 +1501,15 @@ UID:%2$s"</string>
     <string name="column_rank">排行榜</string>
     <string name="column_refresh_once">刷新一下</string>
     <string name="column_reload">重新加载</string>
-    <string name="column_scheme_bili_column">bilibili://article/%1$s?%2$s</string>
     <string name="column_search">搜索</string>
     <string name="column_search_clear">清除搜索记录</string>
     <string name="column_search_hint">搜索专栏文章或CV号</string>
     <string name="column_space_no_data_tips">这里还什么都没有呢~</string>
     <string name="column_submission">投稿</string>
     <string name="column_tag_all">全部</string>
-    <string name="column_text_zero">0</string>
     <string name="column_try_again">再试一次</string>
-    <string name="column_vector_action_menu_default">M386.3,437.5h-4.7l-125.7,27.9c-18.6,4.7 -27.9,18.6 -23.3,37.2v9.3c4.7,14 14,23.3 27.9,23.3h4.7l130.3,-23.3c18.6,-4.7 27.9,-18.6 23.3,-37.2V465.5c-4.7,-14 -18.6,-27.9 -32.6,-27.9zM414.3,605.1c-9.3,0 -18.6,9.3 -18.6,18.6 0,18.6 4.7,37.2 18.6,51.2 14,18.6 32.6,23.3 51.2,23.3 18.6,0 32.6,-4.7 46.5,-18.6h9.3c14,14 27.9,18.6 41.9,18.6 18.6,0 27.9,-4.7 41.9,-9.3 23.3,-18.6 32.6,-41.9 32.6,-69.8 0,-4.7 0,-4.7 -4.7,-9.3 -9.3,-4.7 -14,-4.7 -23.3,-4.7H605.1c-9.3,0 -14,9.3 -14,18.6s0,18.6 -9.3,23.3c-4.7,9.3 -14,14 -23.3,14s-14,-4.7 -23.3,-14c-4.7,-9.3 -9.3,-18.6 -9.3,-27.9 0,-9.3 -9.3,-14 -18.6,-14s-18.6,4.7 -18.6,14v4.7c0,9.3 -4.7,23.3 -14,27.9 -4.7,4.7 -9.3,4.7 -14,4.7 -9.3,0 -14,-4.7 -23.3,-14 -4.7,-9.3 -9.3,-18.6 -9.3,-27.9 4.7,-4.7 -4.7,-9.3 -14,-9.3zM637.7,437.5c-14,0 -27.9,9.3 -27.9,23.3v9.3c-4.7,18.6 9.3,32.6 23.3,37.2l125.7,23.3h4.7c14,0 27.9,-9.3 27.9,-23.3v-9.3c4.7,-18.6 -9.3,-32.6 -23.3,-37.2l-125.7,-23.3h-4.7z</string>
-    <string name="column_vector_action_menu_default_1">M795.9,349.1c23.3,0 41.9,18.6 41.9,41.9V744.7c0,23.3 -18.6,41.9 -41.9,41.9H228.1c-23.3,4.7 -41.9,-14 -41.9,-37.2V391c0,-23.3 18.6,-41.9 41.9,-41.9H795.9m-65.2,-279.3c-14,0 -27.9,4.7 -37.2,18.6l-139.6,190.8h-55.9L283.9,148.9c-4.7,-4.7 -14,-4.7 -23.3,-4.7 -14,0 -27.9,4.7 -37.2,18.6 -4.7,9.3 -4.7,23.3 -4.7,37.2 4.7,9.3 9.3,23.3 18.6,27.9L325.8,279.3H228.1C167.6,279.3 116.4,330.5 116.4,391V744.7c0,60.5 51.2,111.7 111.7,111.7H791.3c60.5,0 111.7,-51.2 111.7,-111.7V391C903,330.5 851.8,279.3 791.3,279.3h-130.3l102.4,-139.6c14,-18.6 9.3,-46.5 -9.3,-60.5 -4.7,-4.7 -14,-9.3 -23.3,-9.3z</string>
     <string name="column_view_more">查看更多</string>
     <string name="column_weeks_hot">一周热门</string>
-    <string name="comma_symbol">,</string>
     <string name="comment">评论</string>
     <string name="comment2_delete_history_title">删除日志</string>
     <string name="comment2_delete_history_top_operator">操作人</string>
@@ -1618,7 +1574,6 @@ UID:%2$s"</string>
     <string name="comment2_post_tip_error_prohibit_to_reply">禁止回复</string>
     <string name="comment2_post_tip_error_report_does_not_exist">举报不存在</string>
     <string name="comment2_post_tip_error_send_error_fmtd">发生错误:%d</string>
-    <string name="comment2_post_tip_error_text_format">&lt;font color=#ff0000>%s&lt;/font></string>
     <string name="comment2_post_tip_error_the_report_has_been_processing">已经处理该举报了</string>
     <string name="comment2_post_tip_error_too_many_emoticon">一条评论最多只能放20个表情哦~</string>
     <string name="comment2_post_tip_error_topic_not_exist">话题不存在</string>
@@ -1827,8 +1782,6 @@ UID:%2$s"</string>
     <string name="diagonsis_downloaded_report_content_resolve_4">json解析失败</string>
     <string name="diagonsis_downloaded_report_content_resolve_5">番剧解析失败</string>
     <string name="diagonsis_downloaded_report_content_resolve_6">联通免流解析失败</string>
-    <string name="diagonsis_downloading_dec_breakpoint_offset">id=%1$d,cachedOffset=%2$d,currentOffset=%3$d,typeTag=%4$s,quality=%5$d,url=%6$s</string>
-    <string name="diagonsis_downloading_dec_breakpoint_total">id=%1$d,cachedTotal=%2$d,currentTotal=%3$d,typeTag=%4$s,quality=%5$d,url=%6$s</string>
     <string name="diagonsis_downloading_dec_connect_success">"    服务器连接成功
 "</string>
     <string name="diagonsis_downloading_dec_info_success">"    下载信息校验成功
@@ -2078,7 +2031,6 @@ UID:%2$s"</string>
     <string name="downloaderr_metered_network">计费移动网络</string>
     <string name="downloaderr_network_read_error">网络接收错误</string>
     <string name="downloaderr_network_read_error_time_out">网络接收超时，请手动重试</string>
-    <string name="downloaderr_none" />
     <string name="downloaderr_unknown">未知错误</string>
     <string name="downloaderr_video_resolve_error">视频解析错误</string>
     <string name="downloaderr_video_server_connect_error">网络连接失败</string>
@@ -2093,7 +2045,6 @@ UID:%2$s"</string>
     <string name="downloadstate_downloading">正在下载</string>
     <string name="downloadstate_in_queue">排队中</string>
     <string name="downloadstate_installed">已安装,点击打开</string>
-    <string name="downloadstate_none" />
     <string name="downloadstate_preparing">连接中…</string>
     <string name="downloadstate_removing">正在删除</string>
     <string name="downloadstate_stopped">已暂停</string>
@@ -2296,7 +2247,6 @@ UID:%2$s"</string>
 客服邮箱livehelp@bilibili.com
 或者客服QQ：800189233进行反馈"</string>
     <string name="error_selecting_file">选择文件出错了!</string>
-    <string name="error_text_format">&lt;font color=#ff0000>%s&lt;/font></string>
     <string name="error_title_is_empty">标题不能为空!</string>
     <string name="error_unknown">发生未知错误</string>
     <string name="error_unknown_code">发生错误:%d</string>
@@ -2310,7 +2260,6 @@ UID:%2$s"</string>
     <string name="existing_review_topics">已经存在评论主题</string>
     <string name="expand_button_title">Advanced</string>
     <string name="extra_award">额外奖励</string>
-    <string name="fab_bottom_navi_behavior">tv.danmaku.bili.ui.main2.BottomNavigationViewFABBehavior</string>
     <string name="fab_label_camera">相机</string>
     <string name="fab_label_picture">图片</string>
     <string name="fab_label_text">文字</string>
@@ -2511,13 +2460,6 @@ UID:%2$s"</string>
     <string name="fragment_capture_pop_t_beauty">美颜</string>
     <string name="fragment_capture_pop_t_buffing">磨皮</string>
     <string name="fragment_capture_pop_t_skinwhite">美白</string>
-    <string name="fragment_capture_speed_0_25">0.25x</string>
-    <string name="fragment_capture_speed_0_5">0.5x</string>
-    <string name="fragment_capture_speed_1">1x</string>
-    <string name="fragment_capture_speed_1_5">1.5x</string>
-    <string name="fragment_capture_speed_2">2x</string>
-    <string name="fragment_capture_speed_8">8x</string>
-    <string name="fragment_capture_speed_tip">x</string>
     <string name="fragment_capture_t_action">选择活动</string>
     <string name="fragment_capture_t_beauty">美化</string>
     <string name="fragment_capture_tip_music_downloading">音乐下载完成即可开拍～</string>
@@ -2547,8 +2489,6 @@ UID:%2$s"</string>
     <string name="game_diagonsis_downloaded_report_content_resolve_4">json解析失败</string>
     <string name="game_diagonsis_downloaded_report_content_resolve_5">番剧解析失败</string>
     <string name="game_diagonsis_downloaded_report_content_resolve_6">联通免流解析失败</string>
-    <string name="game_diagonsis_downloading_dec_breakpoint_offset">id=%1$d,cachedOffset=%2$d,currentOffset=%3$d,typeTag=%4$s,quality=%5$d,url=%6$s</string>
-    <string name="game_diagonsis_downloading_dec_breakpoint_total">id=%1$d,cachedTotal=%2$d,currentTotal=%3$d,typeTag=%4$s,quality=%5$d,url=%6$s</string>
     <string name="game_diagonsis_downloading_dec_connect_success">"    服务器连接成功
 "</string>
     <string name="game_diagonsis_downloading_dec_info_success">"    下载信息校验成功
@@ -2569,7 +2509,6 @@ UID:%2$s"</string>
     <string name="game_diagonsis_downloading_exception_not_same_typetag">"    清晰度不一致
 "</string>
     <string name="game_diagonsis_downloading_report_content_incomplete">文件信息读取异常</string>
-    <string name="game_diagonsis_downloading_report_content_resolve">avid: %1$s, cid: %2$s, from: %3$s, quality: %4$s, ep_id: %5$s, %6$s</string>
     <string name="game_diagonsis_downloading_result_breakpoint_failed">"视频断点续传失败
 "</string>
     <string name="game_diagonsis_downloading_result_connect_failed">"服务器连接失败
@@ -2718,7 +2657,6 @@ UID:%2$s"</string>
     <string name="game_downloaderr_metered_network">计费移动网络</string>
     <string name="game_downloaderr_network_read_error">网络接收错误</string>
     <string name="game_downloaderr_network_read_error_time_out">网络接收超时，请手动重试</string>
-    <string name="game_downloaderr_none" />
     <string name="game_downloaderr_unknown">未知错误</string>
     <string name="game_downloaderr_video_resolve_error">视频解析错误</string>
     <string name="game_downloaderr_video_server_connect_error">网络连接失败</string>
@@ -2733,7 +2671,6 @@ UID:%2$s"</string>
     <string name="game_downloadstate_downloading">正在下载</string>
     <string name="game_downloadstate_in_queue">排队中</string>
     <string name="game_downloadstate_installed">已安装,点击打开</string>
-    <string name="game_downloadstate_none" />
     <string name="game_downloadstate_preparing">连接中…</string>
     <string name="game_downloadstate_removing">正在删除</string>
     <string name="game_downloadstate_stopped">已暂停</string>
@@ -2781,11 +2718,9 @@ UID:%2$s"</string>
     <string name="gif_tips_saving_success">保存视频GIF成功</string>
     <string name="gif_tips_share">分享GIF至</string>
     <string name="gif_tips_time_out_failed">截取超时失败，可能是设备或者网络问题</string>
-    <string name="gift_guard_item_detail" formatted="false"><Data>&lt;font color=#FCA622>%s&lt;/font> x &lt;font color=#FFFFFF>%d&lt;/font></Data></string>
     <string name="gift_statement_empty_tip">还没有收到金瓜子礼物噢~</string>
     <string name="gift_statement_guard_item_time">%s 开通</string>
     <string name="gift_statement_header_tips">根据金瓜子礼物单价筛选</string>
-    <string name="gift_statement_item_detail" formatted="false"><Data>&lt;font color=#999999>%s&lt;/font> x &lt;font color=#FFFFFF>%d&lt;/font></Data></string>
     <string name="gift_statement_item_time">%s 赠送</string>
     <string name="give_up">放弃</string>
     <string name="go_to_activte">去激活</string>
@@ -3200,8 +3135,6 @@ UID:%2$s"</string>
     <string name="list_order_hot">播放最多</string>
     <string name="list_order_new">最新视频</string>
     <string name="list_order_stow">收藏最多</string>
-    <string name="list_play_container_tag">list_player_container</string>
-    <string name="list_play_container_view_tag">list_player_container</string>
     <string name="list_sort_default">默认</string>
     <string name="list_sort_newest">最新</string>
     <string name="live">直播</string>
@@ -3325,7 +3258,6 @@ UID:%2$s"</string>
     <string name="live_center">用户中心</string>
     <string name="live_center_awards">获奖记录</string>
     <string name="live_center_consume_record">消费记录</string>
-    <string name="live_center_empty_string" />
     <string name="live_center_fans_medal_input_hint">请输入3-6个字符</string>
     <string name="live_center_fans_medal_status_ing_tip">审核中</string>
     <string name="live_center_fans_medal_status_reject_tip">审核未通过,请重新设置</string>
@@ -4091,11 +4023,7 @@ X%2$s"</string>
     <string name="mall_hint_network_unavailable">服务器开小差，稍后再试</string>
     <string name="mall_home_evaluation">评测</string>
     <string name="mall_home_feed_comment_buy">去购买</string>
-    <string name="mall_home_feed_comment_pre_sale">[%s] </string>
-    <string name="mall_home_feed_good_price">¥%1$s</string>
     <string name="mall_home_feed_good_price_range">起</string>
-    <string name="mall_home_feed_good_price_rmb_symbol">¥</string>
-    <string name="mall_home_feed_good_price_without_symbol">%1$s</string>
     <string name="mall_home_info_foot_view_load_fail_text">加载失败，点击加载更多</string>
     <string name="mall_home_info_foot_view_load_finish_text">已经到底了～</string>
     <string name="mall_home_info_foot_view_load_more_text">一大波信息向你飞奔过来～</string>
@@ -4215,7 +4143,6 @@ X%2$s"</string>
     <string name="mall_photo_take">拍照</string>
     <string name="mall_picker_handler_ing">正在处理中</string>
     <string name="mall_picker_video_title">视频相册</string>
-    <string name="mall_pinned_bottom_scrolling_behavior">com.mall.ui.viewPinnedBottomScrollingBehavior</string>
     <string name="mall_presale_allmount_paid_ppsale">已付资格预订金</string>
     <string name="mall_presale_allmount_pay">实付定金</string>
     <string name="mall_presale_allmount_remain">尾款待付</string>
@@ -4851,7 +4778,6 @@ X%2$s"</string>
     <string name="music_payment_protocol"><u>音乐月卡用户协议</u></string>
     <string name="music_payment_title">付费购买</string>
     <string name="music_pgc_singer">歌手：%s</string>
-    <string name="music_pinned_bottom_scrolling_behavior">tv.danmaku.bili.widget.PinnedBottomScrollingBehavior</string>
     <string name="music_play">播放</string>
     <string name="music_play_all">播放全部</string>
     <string name="music_play_failed">播放失败</string>
@@ -5221,10 +5147,8 @@ audio@bilibili.com"</string>
     <string name="painting_detail_comment_hint">说点什么吧</string>
     <string name="painting_detail_delete">删除</string>
     <string name="painting_detail_dynamic_go_detail">查看该动态</string>
-    <string name="painting_detail_edit_layout_behavior">com.bilibili.bililive.painting.detail.behavior.PaintingDetailEditLayoutBehavior</string>
     <string name="painting_detail_gif_label">动图</string>
     <string name="painting_detail_has_followed">已关注</string>
-    <string name="painting_detail_header_behavior">com.bilibili.bililive.painting.detail.behavior.PaintingDetailHeaderBehavior</string>
     <string name="painting_detail_input_collect">收藏</string>
     <string name="painting_detail_input_comment">评论</string>
     <string name="painting_detail_input_like">点赞</string>
@@ -5564,8 +5488,6 @@ TAT"</string>
     <string name="pickerview_submit">确定</string>
     <string name="pickerview_year">年</string>
     <string name="picture_dimen_exception">上传的封面图不符合规定，小于470*293，请重新上传</string>
-    <string name="pinned_bottom_scrolling_behavior">tv.danmaku.bili.widget.PinnedBottomScrollingBehavior</string>
-    <string name="pinned_bottom_sheet_behavior">tv.danmaku.bili.widget.PinnedBottomSheetBehavior</string>
     <string name="pk_init_left_text">我方 0</string>
     <string name="pk_init_right_text">0 对方</string>
     <string name="pk_left_vote_text">我方</string>
@@ -5575,8 +5497,6 @@ TAT"</string>
     <string name="plat_error_selecting_file">选择文件出错了!</string>
     <string name="play">点击播放</string>
     <string name="play_in_small_window">使用小窗播放</string>
-    <string name="play_pause_tv_scale_land">1.3</string>
-    <string name="play_pause_tv_scale_vertical">1.0</string>
     <string name="player_charge_elec_text">向UP主充电%s电池 !</string>
     <string name="player_charge_tips_need_charge_pre">即将播放前6分钟，付费(%sB币)看全片</string>
     <string name="player_charge_tips_need_charge_pre_new">试看6分钟，付费观看完整版</string>
@@ -6175,7 +6095,6 @@ TAT"</string>
     <string name="save_success">成功保存至草稿箱</string>
     <string name="save_to_draft">保存到草稿箱</string>
     <string name="saving">正在保存…</string>
-    <string name="scale_fab_behavior">android.support.design.widget.ScaleFabBehavior</string>
     <string name="scan_count">浏览</string>
     <string name="scores_get">获取</string>
     <string name="scores_intro_tip">每100瓜子的礼物提升1点积分</string>

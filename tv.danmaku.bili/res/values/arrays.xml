@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="Player_danmaku_options_pannel_label_danmaku_domain">
+        <item>1/4屏</item>
+        <item>半屏</item>
+        <item>3/4屏</item>
+        <item>不重叠</item>
+        <item>无限</item>
+    </string-array>
+    <string-array name="Player_danmaku_options_pannel_label_danmaku_format_speed_factor">
+        <item>极慢</item>
+        <item>较慢</item>
+        <item>适中</item>
+        <item>较快</item>
+        <item>极快</item>
+    </string-array>
+    <string-array name="Player_danmaku_options_pannel_label_danmaku_format_textsize">
+        <item>极小</item>
+        <item>较小</item>
+        <item>适中</item>
+        <item>较大</item>
+        <item>超大</item>
+    </string-array>
     <string-array name="SearchHintArray">
         <item>听说可以用拼音搜索哦</item>
         <item>可以直接输入avid哦</item>
@@ -28,6 +49,17 @@
     </string-array>
     <string-array name="XPreloadingTipsEntries">
         <item>左右两侧上下可以调节亮度/音量。</item>
+    </string-array>
+    <string-array name="biligame_message_tabs">
+        <item>回复</item>
+        <item>态度</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="biligame_rank_tabs">
+        <item>畅销榜</item>
+        <item>期待榜</item>
+        <item>口碑榜</item>
+        <item>上升最快</item>
     </string-array>
     <string-array name="bplayer_preloading_funny_tips_entries">
         <item>人人为弹幕，弹幕为人人。</item>

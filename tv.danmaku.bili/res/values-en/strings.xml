@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">bilibili</string>
-    <string name="category_banner_advertisement">AD</string>
     <string name="creator_studio">Creator Studio</string>
     <string name="home_top_default_nickname">Login</string>
     <string name="index_feed_dynamic">Following</string>

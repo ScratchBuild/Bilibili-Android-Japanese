@@ -55,6 +55,15 @@
         <item>态度</item>
         <item>通知</item>
     </string-array>
+    <string-array name="biligame_mine_comment_actions">
+        <item>修改</item>
+        <item>删除</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="biligame_mine_favorite_actions">
+        <item>取消收藏</item>
+        <item>取消</item>
+    </string-array>
     <string-array name="biligame_rank_tabs">
         <item>畅销榜</item>
         <item>期待榜</item>
@@ -150,6 +159,42 @@
     </string-array>
     <string-array name="group_op">
         <item>删除成员</item>
+    </string-array>
+    <string-array name="live_emotions">
+        <item>(⌒▽⌒)</item>
+        <item>（￣▽￣）</item>
+        <item>(=・ω・=)</item>
+        <item>(｀・ω・´)</item>
+        <item>(〜￣△￣)〜</item>
+        <item>(･∀･)</item>
+        <item>(°∀°)ﾉ</item>
+        <item>(￣3￣)</item>
+        <item>╮(￣▽￣)╭</item>
+        <item>( ´_ゝ｀)</item>
+        <item>←_←</item>
+        <item>→_→</item>
+        <item>(←_←)</item>
+        <item>(→_→)</item>
+        <item>～(￣▽￣～)</item>
+        <item>(;¬_¬)</item>
+        <item>(▔□▔)/</item>
+        <item>(ﾟДﾟ≡ﾟдﾟ)!?</item>
+        <item>Σ(ﾟдﾟ;)</item>
+        <item>Σ( ￣□￣||)</item>
+        <item>(´；ω；`)</item>
+        <item>（/TДT)/</item>
+        <item>(^・ω・^ )</item>
+        <item>(｡･ω･｡)</item>
+        <item>(●￣(ｴ)￣●)</item>
+        <item>ε=ε=(ノ≧∇≦)ノ</item>
+        <item>(´･_･`)</item>
+        <item>(-_-#)</item>
+        <item>（￣へ￣）</item>
+        <item>(￣ε(#￣) Σ</item>
+        <item>ヽ(`Д´)ﾉ</item>
+        <item>(╯°口°)╯(┴—┴</item>
+        <item>（#-_-)┯━┯</item>
+        <item>_(:3」∠)_</item>
     </string-array>
     <string-array name="master_op">
         <item>解散该团</item>

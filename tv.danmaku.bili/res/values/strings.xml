@@ -5350,8 +5350,6 @@ audio@bilibili.com"</string>
     <string name="mycenter_bp_text">B币：%s</string>
     <string name="mycenter_clear">@string/clear</string>
     <string name="mycenter_coin_text">硬币：%s</string>
-    <string name="mycenter_edit">@string/edit</string>
-    <string name="mycenter_edit_cancel">@string/cancel</string>
     <string name="mycenter_favorite_delete_menu_item">删除收藏</string>
     <string name="mycenter_favorite_title_album">相簿</string>
     <string name="mycenter_favorite_title_article">专栏</string>
@@ -5378,8 +5376,6 @@ audio@bilibili.com"</string>
     <string name="mycenter_item_text_setting">设置</string>
     <string name="mycenter_login_name_et_hint">你的手机号/邮箱</string>
     <string name="mycenter_login_pwd_et_hint">请输入密码</string>
-    <string name="mycenter_login_text">@string/login</string>
-    <string name="mycenter_logout_text">@string/logout</string>
     <string name="mystery_up">神秘的UP主</string>
     <string name="nall_storage_not_exits">存储不可用!</string>
     <string name="nav_answer">答题转正</string>

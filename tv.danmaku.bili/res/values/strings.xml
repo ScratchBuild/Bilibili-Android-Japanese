@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="DanmakuPlayer_danmaku_engine">弹幕引擎</string>
+    <string name="Live_window_time_is_up">"设置的定时生效啦~
+已暂停直播"</string>
     <string name="Mobile_3gnet">联通3gnet</string>
     <string name="Mobile_3gnet_f">联通</string>
     <string name="Mobile_3gwap">联通3gwap</string>
@@ -60,8 +62,6 @@
     <string name="PlayerController_tips_toggle_aspect_ratio">视频比例</string>
     <string name="PlayerController_tips_toggle_danmaku_close">弹幕关</string>
     <string name="PlayerController_tips_toggle_danmaku_open">弹幕开</string>
-    <string name="PlayerController_toast_message_aspect_ratio_16_9_inside">16 : 9</string>
-    <string name="PlayerController_toast_message_aspect_ratio_4_3_inside">4 : 3</string>
     <string name="PlayerController_toast_message_aspect_ratio_adjust_content">适应</string>
     <string name="PlayerController_toast_message_aspect_ratio_adjust_screen">拉伸</string>
     <string name="PlayerController_toast_message_aspect_ratio_center_crop">填充</string>
@@ -201,6 +201,7 @@
     <string name="Player_danmaku_options_pannel_options_avoid_covering_on_subtitle">防挡字幕</string>
     <string name="Player_danmaku_options_pannel_options_block_key_words">按关键词屏蔽</string>
     <string name="Player_danmaku_options_pannel_options_disable_tips">- 该选项被禁用,请在弹幕设置里开启</string>
+    <string name="Player_danmaku_options_pannel_options_text_check_danmaku_list">查看弹幕列表</string>
     <string name="Player_danmaku_options_pannel_options_title_block_bottom">底部 </string>
     <string name="Player_danmaku_options_pannel_options_title_block_colorful">彩色 </string>
     <string name="Player_danmaku_options_pannel_options_title_block_merge">重复 </string>
@@ -209,6 +210,7 @@
     <string name="Player_danmaku_options_pannel_options_title_block_type">按类型屏蔽</string>
     <string name="Player_danmaku_options_pannel_options_title_block_user">屏蔽选中的用户</string>
     <string name="Player_danmaku_options_pannel_options_title_current_danmaku_list">当前弹幕列表</string>
+    <string name="Player_danmaku_options_pannel_options_title_danmaku_list">弹幕列表</string>
     <string name="Player_danmaku_options_pannel_options_title_manage_danmaku">管理弹幕列表</string>
     <string name="Player_danmaku_options_pannel_title">弹幕设置</string>
     <string name="Player_danmaku_options_pannel_title_danmaku">弹幕</string>
@@ -316,7 +318,7 @@
  关闭此窗口将取消下载安装."</string>
     <string name="XLUpdateNow">下载安装</string>
     <string name="XLUpdateTitle">发现更适合您设备的版本</string>
-    <string name="XPlayer_time_is_up">预约的时间到啦</string>
+    <string name="XPlayer_time_is_up">设置的定时生效啦~已暂停直播</string>
     <string name="a_week_ago">一周前</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -326,18 +328,6 @@
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
-    <string name="abc_font_family_body_1_material">sans-serif</string>
-    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
-    <string name="abc_font_family_button_material">sans-serif-medium</string>
-    <string name="abc_font_family_caption_material">sans-serif</string>
-    <string name="abc_font_family_display_1_material">sans-serif</string>
-    <string name="abc_font_family_display_2_material">sans-serif</string>
-    <string name="abc_font_family_display_3_material">sans-serif</string>
-    <string name="abc_font_family_display_4_material">sans-serif-light</string>
-    <string name="abc_font_family_headline_material">sans-serif</string>
-    <string name="abc_font_family_menu_material">sans-serif</string>
-    <string name="abc_font_family_subhead_material">sans-serif</string>
-    <string name="abc_font_family_title_material">sans-serif-medium</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_query">Search query</string>
@@ -361,6 +351,7 @@
     <string name="action_sticky">设为置顶</string>
     <string name="action_take_coin">投币</string>
     <string name="action_unsticky">取消置顶</string>
+    <string name="action_view_dialogue">查看对话</string>
     <string name="activate_get_verifing_num">获取验证码中...</string>
     <string name="activate_get_verify_num">获取验证码</string>
     <string name="activate_immediately">立即激活</string>
@@ -371,9 +362,11 @@
     <string name="ad">广告</string>
     <string name="ad_apk_size">安装包大小: %s</string>
     <string name="ad_app_name">哔哩哔哩</string>
+    <string name="ad_back">返回</string>
     <string name="ad_being_download">即将下载, 可在通知栏中查看</string>
     <string name="ad_cancel">取消</string>
     <string name="ad_cancel_download">已经取消下载</string>
+    <string name="ad_dialog_upper_rec_ad_title">UP主推荐广告</string>
     <string name="ad_download_no_connecting_warning">下载已暂停,请连接网络后继续</string>
     <string name="ad_download_percent">下载进度 %s%%</string>
     <string name="ad_download_please_connect_network">请连接网络后继续!</string>
@@ -459,6 +452,7 @@
     <string name="appeal_fail_too_frequently">举报过于频繁，请稍后重试</string>
     <string name="appeal_failed">举报失败</string>
     <string name="appeal_success">举报成功，谢谢您的贡献～</string>
+    <string name="archive_academy">创作学院</string>
     <string name="archive_column">专栏</string>
     <string name="archive_up">投稿</string>
     <string name="archive_up_for">投稿成为UP主</string>
@@ -516,10 +510,92 @@
 2.证件不清晰或输入的信息不匹配将导致实名认证被驳回
 3.您提供的证件信息将受到严格保护,仅用于身份验证,未经本人许可不会用于其他用途"</string>
     <string name="audio_type_month">音乐月卡</string>
+    <string name="auth_available_live_tips">认证实名，开启直播间等服务</string>
+    <string name="auth_btn_again_tips">重新开始认证</string>
+    <string name="auth_btn_ali_auth">支付宝快捷认证</string>
+    <string name="auth_btn_back">返回</string>
+    <string name="auth_choice_review_frame_tips">"无法提交认证 ? %s
+支持身份证，护照等证件，提交后需等待人工审核"</string>
+    <string name="auth_choice_review_sub_tips">提交人工认证申请</string>
+    <string name="auth_dialog_exit_confirmation_content">你已经填写的信息将不会保留,确认退出么?</string>
+    <string name="auth_dialog_exit_confirmation_navi_btn">继续认证</string>
+    <string name="auth_dialog_exit_confirmation_posv_btn">退出认证</string>
+    <string name="auth_dialog_exit_confirmation_title">退出实名认证</string>
+    <string name="auth_dialog_passed_btn_ok">确认</string>
+    <string name="auth_dialog_passed_content">您已提交实名申请,请等待审核通过</string>
+    <string name="auth_dialog_select_album">相册</string>
+    <string name="auth_dialog_select_camera">相机</string>
+    <string name="auth_dialog_select_cancel">取消</string>
+    <string name="auth_dialog_zhima_confirm_nega_btn">未完成</string>
+    <string name="auth_dialog_zhima_confirm_pos_btn">成功完成</string>
+    <string name="auth_dialog_zhima_confirm_title">是否成功完成了芝麻认证校验?</string>
+    <string name="auth_edit_attentions_detail_info">"1、请保证证件在有效期内
+2、照片清晰可辨认，信息完整无缺失
+3、证件照片真实，无修改"</string>
+    <string name="auth_edit_attentions_title">注意事项</string>
+    <string name="auth_edit_auth_start_tips">请如实填写本人信息，提交后将进入芝麻认证服务</string>
+    <string name="auth_edit_btn_auth_start">开始验证</string>
+    <string name="auth_edit_btn_get_auth_code">获取验证码</string>
+    <string name="auth_edit_btn_get_auth_code_again">重新获取</string>
+    <string name="auth_edit_dialog_msg_live_request_audio_permission">"%s被禁止访问你的话筒，将不能正常使用直播功能。
+
+如果需要使用，请在“系统设置”或授权对话框中允许“录音”权限。"</string>
+    <string name="auth_edit_dialog_msg_live_request_camera_permission">"%s被禁止访问你的相机，将不能正常使用直播功能。
+
+如果需要使用，请在“系统设置”或授权对话框中允许“相机”权限。"</string>
+    <string name="auth_edit_gee_cap_fail_tips">二次验证失败</string>
+    <string name="auth_edit_gee_cap_success_tips">二次验证成功</string>
+    <string name="auth_edit_get_auth_code_tick">%ss后重试</string>
+    <string name="auth_edit_get_pic_path_fail">获取图片路径失败</string>
+    <string name="auth_edit_get_tel_num_error">获取手机号码失败，请重试</string>
+    <string name="auth_edit_have_send_capture">验证码已发送</string>
+    <string name="auth_edit_hint_area_code">请输入手机号码</string>
+    <string name="auth_edit_hint_auth_code">请输入验证码</string>
+    <string name="auth_edit_hint_id_card">请输入身份证号</string>
+    <string name="auth_edit_hint_real_name">请输入真实姓名</string>
+    <string name="auth_edit_identify_uploading">正在上传</string>
+    <string name="auth_edit_msg_live_request_sdcard_write_permission">"%s被禁止访问你的存储，将不能正常使用拍照上传功能。
+
+如果需要使用，请在“系统设置”或授权对话框中允许“存储”权限。"</string>
+    <string name="auth_edit_prefix_area_code">+81</string>
+    <string name="auth_edit_prefix_auth_code">验证码</string>
+    <string name="auth_edit_prefix_id_card">身份证号</string>
+    <string name="auth_edit_prefix_real_name">真正姓名</string>
+    <string name="auth_edit_send_capture_fail">验证码发送失败</string>
+    <string name="auth_edit_submit_tips">正在提交</string>
+    <string name="auth_edit_tip_camera_not_found">未找到相机</string>
+    <string name="auth_edit_tip_gallery_not_found">未找到系统相册</string>
+    <string name="auth_edit_tip_identify_max_file_size">图片最大5M以内噢~请重新选择</string>
+    <string name="auth_edit_tip_storage_forbidden">请允许%s使用存储权限!</string>
+    <string name="auth_edit_title_back_photo">反面照</string>
+    <string name="auth_edit_title_card_photo">证件照片</string>
+    <string name="auth_edit_title_photo_example">示例</string>
+    <string name="auth_edit_upload_pic_fail">上传图片失败,请选择重试</string>
+    <string name="auth_edit_upload_profile_fail_tips">提交失败！</string>
+    <string name="auth_edit_upload_profile_success_tips">提交成功!</string>
+    <string name="auth_error_tips">开启实名认证失败,请检查网络</string>
+    <string name="auth_fail_tips">认证失败 !</string>
+    <string name="auth_gee_captcha_confirm_tips">正在二次验证...</string>
+    <string name="auth_info_title">实名认证</string>
+    <string name="auth_launch_loading">正在请求实名认证</string>
+    <string name="auth_login_pls">请先登录哔哩哔哩账号</string>
+    <string name="auth_manual_btn">开始申请</string>
+    <string name="auth_manual_tips">认证实名，开启直播间等服务</string>
+    <string name="auth_passed_card">证件号码 : %s</string>
+    <string name="auth_passed_real_name">真实姓名 : %s</string>
+    <string name="auth_passed_tips">已通过实名认证</string>
+    <string name="auth_reply_error">获取认证结果异常</string>
+    <string name="auth_reply_loading">正在获取认证结果</string>
     <string name="auth_status_error_dialog_content">检测到你的账号状态异常，为保障账号安全，即将为你退出登录。</string>
     <string name="auth_status_error_dialog_ok">好</string>
     <string name="auth_status_error_dialog_title">警报！前方高能</string>
     <string name="auth_status_error_toast">抱歉，你的登录状态异常!</string>
+    <string name="auth_success_tips">您已经完成认证</string>
+    <string name="auth_zhima_auth_result_error">请求认证结果失败，请重试</string>
+    <string name="auth_zhima_auth_tips">支持身份证，3分钟完成，无需等待审核</string>
+    <string name="auth_zhima_check_tel_bind">检查是否绑定手机号</string>
+    <string name="auth_zhima_mobile_bind_tips">请先完成手机绑定</string>
+    <string name="auth_zhima_no_app_tips">未检测到支付宝App</string>
     <string name="author_space_album_download_already_exist">已保存</string>
     <string name="author_space_album_download_failed">保存图片失败了 汪:(</string>
     <string name="author_space_album_download_success">保存好了 喵^ω^</string>
@@ -599,6 +675,7 @@
     <string name="bangumi_detail_action_favorited">已收藏</string>
     <string name="bangumi_detail_action_follow">追番</string>
     <string name="bangumi_detail_action_followed">已追番</string>
+    <string name="bangumi_detail_action_reviews">点评</string>
     <string name="bangumi_detail_action_share">分享</string>
     <string name="bangumi_detail_action_share_title">分享至</string>
     <string name="bangumi_detail_add_to_watch_later">添加到稍后再看</string>
@@ -607,7 +684,7 @@
     <string name="bangumi_detail_coin_snack_follow">追番即可收到更新提醒哦</string>
     <string name="bangumi_detail_coin_snack_thx">感谢投币</string>
     <string name="bangumi_detail_coin_success">投硬币成功！</string>
-    <string name="bangumi_detail_danmaku_send_hint">发送弹幕</string>
+    <string name="bangumi_detail_danmaku_send_hint">发射弹幕</string>
     <string name="bangumi_detail_danmaku_send_hint_close_danmaku">本视频的弹幕功能已被关闭</string>
     <string name="bangumi_detail_menu_feedback">反馈建议</string>
     <string name="bangumi_detail_menu_info">视频信息</string>
@@ -740,6 +817,7 @@
     <string name="bangumi_list_sort_oldest">怀旧序</string>
     <string name="bangumi_list_sort_subscribe">订阅序</string>
     <string name="bangumi_not_allow_download">抱歉，该剧只可在线观看(。>︿&lt;)</string>
+    <string name="bangumi_notification_setting_tips">及时获取更新提醒哟(=￣ω￣=)</string>
     <string name="bangumi_online_list_item_text">%s人正在看</string>
     <string name="bangumi_online_list_title">大家都在看</string>
     <string name="bangumi_pages_title_detail">番剧详情</string>
@@ -973,11 +1051,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="bangumi_season_info_text_fmt">播放：%s</string>
     <string name="bangumi_season_list_time">%1$d年%2$d月</string>
     <string name="bangumi_season_list_title">分季列表</string>
-    <string name="bangumi_season_no_ep_arealimit">"非常抱歉，根据版权方要求
-您所在的地区无法观看本片"</string>
-    <string name="bangumi_season_no_ep_not_start_follow">"%s即将开播！
-敬请期待~"</string>
-    <string name="bangumi_season_no_ep_not_start_unfollow">%s即将开播！&lt;br/> &lt;font color=#fb7299>追番&lt;/font> 即可收到开播提醒哦~</string>
     <string name="bangumi_season_serial">连载中</string>
     <string name="bangumi_season_serial_finish_fmt">已完结，全%s话</string>
     <string name="bangumi_season_serial_fmt">连载中，每周%s更新</string>
@@ -1116,6 +1189,7 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="bili_socialize_text_weixin_key">微信</string>
     <string name="biligame_action_detail_btn_text">查看</string>
     <string name="biligame_alipay_app_not_install">未检测到支付宝客户端，请安装后重试.</string>
+    <string name="biligame_all_gift_toolbar_title">全部礼包</string>
     <string name="biligame_book">预约</string>
     <string name="biligame_book_again">您已经预约过了！</string>
     <string name="biligame_book_already">已预约</string>
@@ -1124,6 +1198,8 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="biligame_book_man">人预约</string>
     <string name="biligame_book_nobody">暂无预约</string>
     <string name="biligame_book_notify_title">你预约的%1$d款游戏上架啦</string>
+    <string name="biligame_book_num_format">预约人数：%1$d</string>
+    <string name="biligame_book_online_format">预计上架：%1$s</string>
     <string name="biligame_book_retry">再试一次</string>
     <string name="biligame_book_share">分享</string>
     <string name="biligame_book_share_friend">分享给好友,一起预约备战!</string>
@@ -1158,6 +1234,22 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="biligame_featured_text">精选</string>
     <string name="biligame_fgo_special_name">"命运-冠位
 指定"</string>
+    <string name="biligame_gift_already_error">已领过此礼包码</string>
+    <string name="biligame_gift_big_error">大会员才能领取</string>
+    <string name="biligame_gift_count">礼包总数</string>
+    <string name="biligame_gift_date">有效期至</string>
+    <string name="biligame_gift_done_error">礼包已领完</string>
+    <string name="biligame_gift_download">前往下载</string>
+    <string name="biligame_gift_empty">已领完</string>
+    <string name="biligame_gift_exchange">兑换</string>
+    <string name="biligame_gift_go">前往兑换</string>
+    <string name="biligame_gift_receive">领取</string>
+    <string name="biligame_gift_received">已领取</string>
+    <string name="biligame_gift_success">礼包码已存入“我的礼包”</string>
+    <string name="biligame_gift_toolbar_title">礼包</string>
+    <string name="biligame_gift_undownload">您还未安装游戏</string>
+    <string name="biligame_gift_up_to_date">还有%1$d天过期</string>
+    <string name="biligame_gift_vip_error">年度大会员才能领取</string>
     <string name="biligame_h5_game">H5游戏</string>
     <string name="biligame_home_text">首页</string>
     <string name="biligame_hot_comment_des">评价《%1$s》</string>
@@ -1185,13 +1277,16 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="biligame_mine_text_update_version">版本</string>
     <string name="biligame_mine_text_updating">正在获取可更新游戏信息</string>
     <string name="biligame_mine_text_watch">关注</string>
+    <string name="biligame_mine_text_watched">已关注</string>
     <string name="biligame_mine_update_download_all">全部更新</string>
     <string name="biligame_mine_updating">正在下载</string>
+    <string name="biligame_my_gift_toolbar_title">我的礼包</string>
     <string name="biligame_my_message_toolbar_title">我的消息</string>
     <string name="biligame_network_error">服务器开小差了，请重试</string>
     <string name="biligame_network_exception">网络异常，请稍后尝试</string>
     <string name="biligame_open_text">打开</string>
     <string name="biligame_pay_again">再试一次</string>
+    <string name="biligame_pay_already_paid">您已购买过该游戏，可直接下载体验</string>
     <string name="biligame_pay_btn_text">确认支付 ¥%1$s</string>
     <string name="biligame_pay_error_content">若确认已完成付款，请勿反复购买！有问题可联系客服，客服电话：4001782233</string>
     <string name="biligame_pay_error_title">很抱歉，您支付未完成</string>
@@ -1207,12 +1302,20 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="biligame_search_more_text">查看全部%1$d个游戏结果</string>
     <string name="biligame_search_title_game">相关游戏</string>
     <string name="biligame_search_title_strategy">相关攻略</string>
+    <string name="biligame_setting_email_toast_copy">客服邮箱已复制</string>
     <string name="biligame_setting_label_feedback">意见反馈</string>
     <string name="biligame_setting_label_notify">通知</string>
     <string name="biligame_setting_label_qq_group">官方Q群</string>
+    <string name="biligame_setting_label_service_email">客服邮箱</string>
+    <string name="biligame_setting_label_service_phone">客服电话</string>
+    <string name="biligame_setting_label_service_qq">客服QQ</string>
     <string name="biligame_setting_notify_close">关</string>
     <string name="biligame_setting_notify_label">预约上架提醒</string>
     <string name="biligame_setting_notify_open">开</string>
+    <string name="biligame_setting_phone_toast_copy">客服电话已复制</string>
+    <string name="biligame_setting_qq_toast_copy">客服QQ已复制</string>
+    <string name="biligame_setting_service_phone_info">工作时间：9:00-21:00</string>
+    <string name="biligame_setting_service_qq_info">24小时在线服务</string>
     <string name="biligame_setting_toast_copy">已复制群号到粘贴板</string>
     <string name="biligame_status_text_paused">已暂停</string>
     <string name="biligame_status_text_waitting">排队中…</string>
@@ -1389,9 +1492,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
 2.“证件号码”一栏必须填写身份证号码
 3.护照需在2007年1月1日后签发
 4.证件必须在有效期内,有效期需在一个月以上"</string>
-    <string name="card_attention_passport_foreign">"1.需上传本人露脸手持护照个人信息页(带有效盖章)照片＋签证信息页(不需手持)
-2.护照需在2007年1月1日后签发
-3.证件必须在有效期内,有效期需在一个月以上"</string>
     <string name="card_attention_passport_hk">"1.拍照要求同身份证
 2.暂不支持港澳同胞回乡证
 3.证件必须在有效期内,有效期需在一个月以上"</string>
@@ -1436,7 +1536,6 @@ bilibili点评鼓励您独立完成针对动画作品、电影、电视剧等进
     <string name="channel_unsubscribe_failed">取消订阅失败</string>
     <string name="channel_unsubscribe_success">取消订阅成功</string>
     <string name="channel_update_hint">标签、话题升级为频道，进来看看吧~</string>
-    <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="charge">充电</string>
     <string name="charge_action">充电</string>
     <string name="charge_auth_status_error_toast">抱歉，你的登录状态异常!</string>
@@ -1532,8 +1631,7 @@ UID:%2$s"</string>
     <string name="clip_no_data">什么都木有┑(￣Д ￣)┍</string>
     <string name="clip_player_tips_sleep_mode_continue_play">继续播放</string>
     <string name="clip_player_tips_sleep_mode_last_minute">1分钟后将停止播放</string>
-    <string name="clip_player_tips_sleep_mode_on_time">预约的时间到啦(´・ω・)</string>
-    <string name="clip_player_tips_sleep_mode_on_time_without_emoji">预约的时间到啦</string>
+    <string name="clip_player_tips_sleep_mode_on_time">设置的定时生效啦~已暂停直播</string>
     <string name="clip_record_capture_prompt">轻触拍照，按住摄像</string>
     <string name="clip_record_prompt">按住摄像</string>
     <string name="clip_tag">\#%s#</string>
@@ -1613,6 +1711,7 @@ UID:%2$s"</string>
     <string name="column_change_text_size_normal">标准</string>
     <string name="column_change_text_size_small">小</string>
     <string name="column_collapse">收起</string>
+    <string name="column_detail_article_catalogue">目录</string>
     <string name="column_detail_cancel_attention_sure">取消关注</string>
     <string name="column_detail_cancel_attention_tips">确认取消关注该up主吗？</string>
     <string name="column_detail_dynamic">查看该动态</string>
@@ -1621,6 +1720,10 @@ UID:%2$s"</string>
     <string name="column_detail_menu_appeal">举报</string>
     <string name="column_detail_menu_category">专栏分区</string>
     <string name="column_detail_menu_category_tips">点击传送门直达专栏~</string>
+    <string name="column_detail_menu_generate_pic">生成长图</string>
+    <string name="column_detail_menu_generate_pic_fail">生成长图失败，请重试...</string>
+    <string name="column_detail_menu_generate_save_pic_oom">图片太大了，保存失败_(:з」∠)_</string>
+    <string name="column_detail_menu_generate_share_pic_oom">图片太大了，无法分享_(:з」∠)_</string>
     <string name="column_detail_menu_share">分享</string>
     <string name="column_detail_menu_text_size">字号</string>
     <string name="column_detail_menu_theme">夜间模式</string>
@@ -1652,6 +1755,8 @@ UID:%2$s"</string>
     <string name="column_hotspot_title">今日热点</string>
     <string name="column_image_share_content">快来#bilibili专栏#看看 %1$s 发表的 %2$s吧～</string>
     <string name="column_image_share_generate">生成分享图片</string>
+    <string name="column_image_share_loading">正在生成...</string>
+    <string name="column_image_share_save">保存本地</string>
     <string name="column_image_share_toast_failed">保存图片失败了 汪:(</string>
     <string name="column_image_share_toast_saved">已保存</string>
     <string name="column_image_share_toast_success">保存好了 喵^ω^</string>
@@ -1742,8 +1847,6 @@ UID:%2$s"</string>
     <string name="comment2_input_text_hint">说点什么吧</string>
     <string name="comment2_input_text_hint_empty_input">不说算了，口亨</string>
     <string name="comment2_load_error">加载失败了Σ(OДO</string>
-    <string name="comment2_msg_span_user">%1$s %2$s</string>
-    <string name="comment2_msg_span_user_reply">%1$s: %2$s</string>
     <string name="comment2_msg_submit_success">提交成功~</string>
     <string name="comment2_network_error">喵，网络好像有问题~</string>
     <string name="comment2_not_exist">评论已不存在</string>
@@ -1856,6 +1959,7 @@ UID:%2$s"</string>
     <string name="comment_count_desc_fmt">评论(%d)</string>
     <string name="comment_count_hint">评论 %1s</string>
     <string name="comment_detail_title">评论详情</string>
+    <string name="comment_dialogue_title">对话列表</string>
     <string name="comment_fans_desc">真爱</string>
     <string name="comment_need_to_review">评论内容需要审核</string>
     <string name="comment_on_content_filtering_to_sensitive_words">你的评论内容有些敏感</string>
@@ -1950,6 +2054,11 @@ UID:%2$s"</string>
     <string name="danmaku_send_error_default">系统错误，发送失败。</string>
     <string name="danmaku_send_error_no_network">无网络连接，发送失败。</string>
     <string name="danmaku_send_error_time_out">连接超时，发送失败。</string>
+    <string name="danmaku_window_block">屏蔽</string>
+    <string name="danmaku_window_blocked">已屏蔽</string>
+    <string name="danmaku_window_copy">复制</string>
+    <string name="danmaku_window_report">举报</string>
+    <string name="danmaku_window_undo">撤回</string>
     <string name="danmakus_setting">弹幕设置</string>
     <string name="date_relative_just_now">刚刚</string>
     <string name="date_relative_now_fmt">刚刚</string>
@@ -1963,6 +2072,7 @@ UID:%2$s"</string>
     <string name="delete">删除</string>
     <string name="delete_confirm">确定要删除吗？</string>
     <string name="delete_confirm_msg">删除评论后将不可恢复，是否继续？</string>
+    <string name="delete_danmaku_item">删除弹幕</string>
     <string name="delete_fail">删除失败</string>
     <string name="delete_fav_box">删除收藏夹</string>
     <string name="delete_label_with_count">删除(%d)</string>
@@ -2255,6 +2365,8 @@ UID:%2$s"</string>
     <string name="downloaderr_network_read_error_time_out">网络接收超时，请手动重试</string>
     <string name="downloaderr_unknown">未知错误</string>
     <string name="downloaderr_video_resolve_error">视频解析错误</string>
+    <string name="downloaderr_video_resolve_error_vip_quality">大会员专享画质</string>
+    <string name="downloaderr_video_resolve_error_vip_video">大会员专享视频</string>
     <string name="downloaderr_video_server_connect_error">网络连接失败</string>
     <string name="downloaderr_video_server_connect_time_out">网络连接超时</string>
     <string name="downloaderr_video_server_http_error">http错误</string>
@@ -2295,6 +2407,15 @@ UID:%2$s"</string>
     <string name="edit">编辑</string>
     <string name="edit_add_failed_tips">添加失败_(:3」∠)_，请尝试检查网络…</string>
     <string name="edit_apply_failed_tips">应用失败_(:3」∠)_，请稍后重试…</string>
+    <string name="edit_apply_sticker_failed_msg">『应用失败，请重试…』</string>
+    <string name="edit_bgm_search_bar_cancel_text">取消</string>
+    <string name="edit_bgm_search_network_input_empty">请输入歌曲名或歌手名</string>
+    <string name="edit_bgm_search_network_unavailable">请检查网络状况</string>
+    <string name="edit_bgm_search_query_hint">搜索歌曲名或歌手</string>
+    <string name="edit_bgm_search_result_empty_tips">没有搜索到相关内容噢～</string>
+    <string name="edit_bgm_search_result_empty_user_recommend_entry">推荐你想使用的音乐</string>
+    <string name="edit_bgm_search_result_not_match_tips">没有搜索到想要的内容？</string>
+    <string name="edit_bgm_search_section_recommend_title">大家都在搜</string>
     <string name="edit_cannot_add_sticker_hint">时长小于1秒不可添加</string>
     <string name="edit_grant_all">开放授权-署名-非商用转载</string>
     <string name="edit_grant_author">作者授权-署名-非商用转载</string>
@@ -2359,7 +2480,7 @@ UID:%2$s"</string>
     <string name="emoji_name_zaijian">再见</string>
     <string name="emoji_name_zhoumei">皱眉</string>
     <string name="emoji_name_zhuakuang">抓狂</string>
-    <string name="empty_danmaku">没有弹幕~</string>
+    <string name="empty_danmaku">当前时间点暂无弹幕</string>
     <string name="empty_directory">空目录</string>
     <string name="empty_media">什么都木有┑(￣Д ￣)┍</string>
     <string name="empty_tip_attention_group">还未创建分组，该用户会被放在默认组里哦~</string>
@@ -2490,6 +2611,7 @@ UID:%2$s"</string>
     <string name="exchange_year_vip_success">您已成功兑换%d年年度大会员</string>
     <string name="exchanging">兑换中</string>
     <string name="existing_review_topics">已经存在评论主题</string>
+    <string name="exit_video_activity">退出活动</string>
     <string name="expand_button_title">Advanced</string>
     <string name="extra_award">额外奖励</string>
     <string name="fab_label_camera">相机</string>
@@ -2569,6 +2691,7 @@ UID:%2$s"</string>
     <string name="following_ablum">相册</string>
     <string name="following_activity">活动</string>
     <string name="following_activity_empty">内容已失效，无法查看</string>
+    <string name="following_add_topic">添加话题</string>
     <string name="following_all">全部关注</string>
     <string name="following_attention_limit_hint">"答题成为正式会员，或绑定手机
 才能进行下一步操作哦"</string>
@@ -2579,6 +2702,8 @@ UID:%2$s"</string>
     <string name="following_cartoon">漫画</string>
     <string name="following_clip_no_camera">当前已选择相册视频， 不能再拍照</string>
     <string name="following_clip_no_more_clip">当前已选择相册视频， 不能再拍摄小视频</string>
+    <string name="following_collect_fail">收藏失败</string>
+    <string name="following_collect_success">收藏好了~喵(′・ω・`)</string>
     <string name="following_comment">评论</string>
     <string name="following_comment_num">%s评论</string>
     <string name="following_comment_with_count">评论 %s</string>
@@ -2606,6 +2731,7 @@ UID:%2$s"</string>
     <string name="following_fans_new_count">最近新增个 %1$d 粉丝，共 %2$d 个粉丝</string>
     <string name="following_fans_num">%s粉丝</string>
     <string name="following_favorite_with_count">赞 %s</string>
+    <string name="following_favour_with_count">赞 %s</string>
     <string name="following_file_not_exit">文件不存在</string>
     <string name="following_gif">动图</string>
     <string name="following_go_detail">查看该动态</string>
@@ -2631,6 +2757,8 @@ UID:%2$s"</string>
     <string name="following_new_topic">新话题</string>
     <string name="following_no_found">原动态不见了...</string>
     <string name="following_nothing">什么都木有</string>
+    <string name="following_pls_try_later">稍后再试试吧..</string>
+    <string name="following_popup_copy_string">复制</string>
     <string name="following_publish_tip">"新增【发布动态】功能
 发布图片、小视频和文字动态！"</string>
     <string name="following_publish_with_location">可以在动态里带上你的位置啦!</string>
@@ -2639,6 +2767,7 @@ UID:%2$s"</string>
     <string name="following_recent_contact">最近联系人</string>
     <string name="following_recommend_user">推荐用户</string>
     <string name="following_recommend_user_dynamic">你可能感兴趣的UP主</string>
+    <string name="following_repeat_collection">已收藏</string>
     <string name="following_report">举报</string>
     <string name="following_report_success">举报成功，谢谢您做的贡献～</string>
     <string name="following_repost">转发</string>
@@ -2650,6 +2779,8 @@ UID:%2$s"</string>
     <string name="following_search_history_title">历史记录</string>
     <string name="following_search_nobody">好像查无此人呢_(:з」∠)_</string>
     <string name="following_search_ranks_title">大家都在搜</string>
+    <string name="following_share_content">来自：%s</string>
+    <string name="following_share_title" formatted="false">来自：%s的哔哩哔哩动态：%s</string>
     <string name="following_shoot">摄像</string>
     <string name="following_source">来源:</string>
     <string name="following_str_topic">\#%s#</string>
@@ -2664,6 +2795,8 @@ UID:%2$s"</string>
     <string name="following_topic_num">我关注的话题 %d</string>
     <string name="following_topic_search">搜索话题</string>
     <string name="following_topic_search_empty">没有搜到相关内容，请尝试别的搜索词</string>
+    <string name="following_uncollect_fail">取消收藏失败</string>
+    <string name="following_uncollect_success">收藏取消了=，=</string>
     <string name="following_user_space_end">到达动态的尽头惹~</string>
     <string name="following_users">\@我想联系的人</string>
     <string name="following_vertical_search_guide_tip">"下拉可以
@@ -3130,7 +3263,6 @@ UID:%2$s"</string>
     <string name="identify_upload_pic_fail">上传图片失败,请选择重试</string>
     <string name="identify_uploading">正在上传</string>
     <string name="identify_wait_write">未填写</string>
-    <string name="ijkplayer_dummy" />
     <string name="illegal__praise">不合法的赞或踩</string>
     <string name="illegal_father_comments">不合法的父评论</string>
     <string name="illegal_parameter">type参数不合法</string>
@@ -3435,7 +3567,6 @@ UID:%2$s"</string>
     <string name="live_ask_for_float_window_title">开启直播小窗功能</string>
     <string name="live_attention_anchor">关注主播</string>
     <string name="live_attention_cancel_filter">取消筛选</string>
-    <string name="live_attention_card_module_name">直播中</string>
     <string name="live_attention_close_info" formatted="false">%1s 直播了 %2s</string>
     <string name="live_attention_filter_desc" formatted="false">%1s的，共%2d人</string>
     <string name="live_attention_filter_empty">"没有找到正在直播的
@@ -3495,18 +3626,6 @@ UID:%2$s"</string>
     <string name="live_beats_not_setting">尚未设置自定义节奏</string>
     <string name="live_beats_sure">我知道了</string>
     <string name="live_beats_title">恭喜中奖</string>
-    <string name="live_bml_dialog_back">返回</string>
-    <string name="live_bml_dialog_bml_end">非常抱歉，付费直播已结束</string>
-    <string name="live_bml_dialog_buy_vip">成为大会员</string>
-    <string name="live_bml_dialog_invalid_ip">"非常抱歉，根据版权方要求，
-您所在的地区无法观看本直播"</string>
-    <string name="live_bml_dialog_login">登录</string>
-    <string name="live_bml_dialog_pls_buy_vip">非常抱歉，当前直播需要付费购票，或者成为年度大会员才能观看哦~</string>
-    <string name="live_bml_dialog_pls_login">非常抱歉，当前直播为付费直播，需要登录后查询付费状态后才能观看~</string>
-    <string name="live_bml_dialog_pls_retry">"非常抱歉，直播间发生未知错误，
-请问是否重试？"</string>
-    <string name="live_bml_dialog_retry">重试</string>
-    <string name="live_bml_dialog_tips_vip">我已经是大会员了，重新验证！</string>
     <string name="live_bp2gold_amount_hint">请输入兑换B币的数量</string>
     <string name="live_bp_remaining">B币余额：%dB币</string>
     <string name="live_broadcast_text">广播</string>
@@ -3520,6 +3639,7 @@ UID:%2$s"</string>
     <string name="live_can_not_send_storm_gifts">主播未开播，节奏带不起来~</string>
     <string name="live_cancel_medal">卸下勋章</string>
     <string name="live_cancel_medal_toast">木有信仰和咸鱼有什么区别？◐▽◑</string>
+    <string name="live_cancel_subscribe_success">已取消预约</string>
     <string name="live_cannot_follow_cause_setting">因该用户隐私设置，无法关注</string>
     <string name="live_captcha_checking">正在验证...</string>
     <string name="live_captcha_checking_failed">输入的验证码不正确</string>
@@ -3602,7 +3722,6 @@ UID:%2$s"</string>
     <string name="live_center_up_announce_edit_tip">系统维护中，无法修改主播公告，敬请谅解</string>
     <string name="live_center_up_announce_save">保存</string>
     <string name="live_center_user_level_max">已满级</string>
-    <string name="live_center_user_level_ratio_text">%1$d/%2$d</string>
     <string name="live_center_user_room_info">房间号: %1$d       粉丝数: %2$d</string>
     <string name="live_center_user_room_info_default">房间号:----       粉丝数:----</string>
     <string name="live_center_user_room_level">UP %1$s</string>
@@ -3634,6 +3753,7 @@ UID:%2$s"</string>
     <string name="live_current_count">当前共有%d个直播</string>
     <string name="live_current_room_flag">当前房间</string>
     <string name="live_cut_down_reason">当前的直播间因“%s”，已被管理员切断。</string>
+    <string name="live_dammaku_direction">弹幕方向</string>
     <string name="live_dammaku_on">开启弹幕</string>
     <string name="live_danmaku_privilege">弹幕特权</string>
     <string name="live_danmaku_privilege_tips_1">专享顶部悬停弹幕，专享基佬紫弹幕</string>
@@ -3722,6 +3842,7 @@ UID:%2$s"</string>
     <string name="live_follow_success">关注成功</string>
     <string name="live_forever">永久</string>
     <string name="live_free_data">免流</string>
+    <string name="live_free_data_tip">免流</string>
     <string name="live_gashapon_can_play">当前可以扭%s次</string>
     <string name="live_gashapon_coins">扭蛋币：%s枚</string>
     <string name="live_gashapon_coins_need">扭蛋币不足！</string>
@@ -3731,8 +3852,6 @@ UID:%2$s"</string>
     <string name="live_gashapon_fantsitic">梦幻扭蛋</string>
     <string name="live_gashapon_gift_can_award">可扭得以下奖励</string>
     <string name="live_gashapon_gift_dialog_title">抽中奖品</string>
-    <string name="live_gashapon_gift_title">"%1$s
-X%2$s"</string>
     <string name="live_gashapon_init_tips">当前扭蛋币10000枚</string>
     <string name="live_gashapon_no_fantisy">"梦幻扭蛋机正在装修中...
 下次活动将重新开启"</string>
@@ -3879,7 +3998,7 @@ X%2$s"</string>
     <string name="live_menu_audio_only_to_play_video">播放画面</string>
     <string name="live_menu_feedback">直播反馈</string>
     <string name="live_menu_report">举报</string>
-    <string name="live_menu_setting">设置</string>
+    <string name="live_menu_setting">播放设置</string>
     <string name="live_menu_share">分享</string>
     <string name="live_menu_up_info">主播信息</string>
     <string name="live_minute">分</string>
@@ -3938,6 +4057,7 @@ X%2$s"</string>
     <string name="live_notify_open_message">及时获取直播开播提醒哟(=￣ω￣=)</string>
     <string name="live_on_awarding">正在抽奖中…</string>
     <string name="live_online_pay">在线支付</string>
+    <string name="live_open_notification">前往开启</string>
     <string name="live_open_push_failed">开启失败</string>
     <string name="live_open_push_success">开启成功 ~喵~</string>
     <string name="live_operation_rank">小时榜</string>
@@ -3958,7 +4078,6 @@ X%2$s"</string>
     <string name="live_pay_record_anchor_name">主播：%s</string>
     <string name="live_pay_record_guard_unit">个月</string>
     <string name="live_pay_record_none_record">没有消费记录~</string>
-    <string name="live_pay_record_price_discount">-%d%%</string>
     <string name="live_pay_record_price_hundred_million">%d亿</string>
     <string name="live_pay_record_price_ten_thousand">%d万</string>
     <string name="live_pay_record_room">房间：%d</string>
@@ -3987,9 +4106,7 @@ X%2$s"</string>
     <string name="live_pkg_0_gift_num">当前道具已经送完了哟~</string>
     <string name="live_pkg_confirm_count">您选择的道具数量只有%d个，是否全部送出呢？</string>
     <string name="live_pkg_empty">包裹里还没有道具哟(´；ω；`)</string>
-    <string name="live_player_area_name" formatted="false">%1s·%2s</string>
-    <string name="live_player_background_play">后台播放</string>
-    <string name="live_player_background_play_hint">（应用退至后台，可继续播放）</string>
+    <string name="live_player_background_play">后台播放（应用退至后台，可继续播放）</string>
     <string name="live_player_feedback_other_advise_hint">问题或建议补充</string>
     <string name="live_player_feedback_report_failed">反馈发送失败，请重试！</string>
     <string name="live_player_feedback_report_get">正在获取网络信息，请耐心等待。</string>
@@ -4009,9 +4126,8 @@ X%2$s"</string>
     <string name="live_player_loading">不要急...还没加载完...</string>
     <string name="live_player_not_ready">不要急...播放器还没准备好...</string>
     <string name="live_player_setting">播放器设置</string>
-    <string name="live_player_window_auto_play">小窗播放</string>
+    <string name="live_player_window_auto_play">小窗播放（退出直播后，切换到小窗播放）</string>
     <string name="live_player_window_auto_play_bml_hint">（付费直播间暂不支持小窗播放）</string>
-    <string name="live_player_window_auto_play_hint">（退出直播后，切换到小窗播放）</string>
     <string name="live_please_choose_prop">请选择要赠送的道具哦</string>
     <string name="live_popup_follow_guide_tips">支持主播，关注TA吧～</string>
     <string name="live_pornographic">色情</string>
@@ -4147,6 +4263,16 @@ X%2$s"</string>
     <string name="live_shield_prop_danmu">屏蔽抽奖弹幕</string>
     <string name="live_shield_prop_effect">屏蔽礼物特效</string>
     <string name="live_silver">@string/silver_seed</string>
+    <string name="live_small_window_first_show_tip">不喜欢小窗播放，可在设置中关闭哦</string>
+    <string name="live_sp_dialog_cancel">取消</string>
+    <string name="live_sp_dialog_error_pls_retry">非常抱歉, 访问失败, 服务器发出了烤土豆的香味(¯﹃¯), 请稍后再试~</string>
+    <string name="live_sp_dialog_goto_buy">前往购票</string>
+    <string name="live_sp_dialog_i_know">我知道了</string>
+    <string name="live_sp_dialog_live_end_time">本场直播将于%s结束</string>
+    <string name="live_sp_dialog_login">登录</string>
+    <string name="live_sp_dialog_retry">重试</string>
+    <string name="live_sp_dialog_tips_retry_auth">我已购票，请重新验证！</string>
+    <string name="live_sp_toast_error_link">跳转SP购买参数错误，当前购买链接为空！</string>
     <string name="live_special_attention">特别关注</string>
     <string name="live_speed_improve_intimacy">加速提升亲密度</string>
     <string name="live_star_live">明星直播</string>
@@ -4186,6 +4312,8 @@ X%2$s"</string>
     <string name="live_streaming_wish_finish">太好啦！心愿完成！</string>
     <string name="live_streaming_wish_num_limit">太贪心了！许愿瓶已达上限</string>
     <string name="live_submit_award_information">提交</string>
+    <string name="live_subscribe_success">预约成功，开始直播前通知你</string>
+    <string name="live_subscribe_tip">使用此功能需要允许应用打开系统通知</string>
     <string name="live_support">应援</string>
     <string name="live_sure">确认</string>
     <string name="live_tag_add">立即添加</string>
@@ -4193,6 +4321,8 @@ X%2$s"</string>
     <string name="live_tags_all">全部</string>
     <string name="live_terror">暴恐</string>
     <string name="live_times_length">本次直播时长</string>
+    <string name="live_timing_stop_play_tip">将于%s暂停</string>
+    <string name="live_timing_stop_tip">到时间会暂停直播哒~</string>
     <string name="live_tipoff_success">已收到举报，我们会尽快处理</string>
     <string name="live_tips_closed_danmaku">已关闭弹幕</string>
     <string name="live_tips_opened_danmaku">已开启弹幕</string>
@@ -4231,6 +4361,7 @@ X%2$s"</string>
     <string name="live_unfollow_failed">取消关注失败</string>
     <string name="live_unfollow_prompt_tips">确认取消关注该UP主吗？</string>
     <string name="live_unfollow_success">取消关注成功</string>
+    <string name="live_unicom_network_player_status_title_233">免流</string>
     <string name="live_up_honor">主播荣誉</string>
     <string name="live_up_is_offline">主播已经下播了哟~</string>
     <string name="live_user_attention_edit_tag">编辑常用标签</string>
@@ -4379,7 +4510,6 @@ X%2$s"</string>
     <string name="mall_group_buy">抱团立减</string>
     <string name="mall_group_gif_too_big">您选择的gif图片过大，请压缩后再上传</string>
     <string name="mall_group_image_preview_ok">%1$d/%2$d 确定</string>
-    <string name="mall_group_image_preview_title">%1$d/%2$d</string>
     <string name="mall_group_image_select_ok">(%1$s/%2$s) 确定</string>
     <string name="mall_group_max_image_over_fmt">你最多只能选择%d张图片</string>
     <string name="mall_hint_network_unavailable">服务器开小差，稍后再试</string>
@@ -4398,6 +4528,7 @@ X%2$s"</string>
     <string name="mall_home_picture_read">阅读</string>
     <string name="mall_home_popular_science">科普</string>
     <string name="mall_home_search_hint_text">商品、漫展</string>
+    <string name="mall_home_search_hint_text_v2">商品、展览演出</string>
     <string name="mall_home_show">漫展</string>
     <string name="mall_home_talk_about">杂谈</string>
     <string name="mall_home_toolbar_order_entry">订单</string>
@@ -4567,9 +4698,13 @@ X%2$s"</string>
     <string name="mall_report_submit">提交</string>
     <string name="mall_search_cancel">取消</string>
     <string name="mall_search_empty_tip">什么都没找到啊 /(ㄒoㄒ)/</string>
+    <string name="mall_search_empty_tip_suggest">请将你想要的商品告诉我们，我们会尽快满足你的心愿</string>
     <string name="mall_search_history_clean">清空</string>
     <string name="mall_search_history_name">搜索历史</string>
+    <string name="mall_search_hot">大家都在搜</string>
     <string name="mall_search_loading_tip">加载中...</string>
+    <string name="mall_search_sug_tag_1">商品</string>
+    <string name="mall_search_sug_tag_2">展演</string>
     <string name="mall_search_type_exhibition">漫展</string>
     <string name="mall_search_type_goods">商品</string>
     <string name="mall_server_error">页面加载失败Σ( ° △ °|||)</string>
@@ -4606,150 +4741,6 @@ X%2$s"</string>
     <string name="mall_shop_search_empty_text">没有结果，换个关键词试试~</string>
     <string name="mall_shop_search_hint">搜索本店商品</string>
     <string name="mall_show_home_title">票务</string>
-    <string name="mall_statistics_article">mallArticle</string>
-    <string name="mall_statistics_article_item_click">article_item_click</string>
-    <string name="mall_statistics_article_item_show">article_item_show</string>
-    <string name="mall_statistics_article_tab_click">article_tab_click</string>
-    <string name="mall_statistics_buyer_edit">buyerEdit</string>
-    <string name="mall_statistics_buyer_list">buyerList</string>
-    <string name="mall_statistics_calendar">mallCalendar</string>
-    <string name="mall_statistics_calendar_item_click">calendar_item_click</string>
-    <string name="mall_statistics_calendar_tab_click">calendar_tab_click</string>
-    <string name="mall_statistics_coser_publish">coserPublish</string>
-    <string name="mall_statistics_create_addr_add">addr_add</string>
-    <string name="mall_statistics_create_addr_list">addr_list</string>
-    <string name="mall_statistics_create_addrdetails_confirm">addrdetails_confirm</string>
-    <string name="mall_statistics_create_addrdetails_default">addrdetails_default</string>
-    <string name="mall_statistics_create_addrdetails_delete">addrdetails_delete</string>
-    <string name="mall_statistics_create_addrlist_add">addrlist_add</string>
-    <string name="mall_statistics_create_addrlist_delete">addrlist_delete</string>
-    <string name="mall_statistics_create_addrlist_edit">addrlist_edit</string>
-    <string name="mall_statistics_create_goods_details">goods_details</string>
-    <string name="mall_statistics_create_invoice_open">invoice_open</string>
-    <string name="mall_statistics_create_message">message</string>
-    <string name="mall_statistics_create_order_back">order_back</string>
-    <string name="mall_statistics_create_order_coupon_choose">order_coupon_choose</string>
-    <string name="mall_statistics_create_order_coupon_list">order_coupon_list</string>
-    <string name="mall_statistics_create_order_coupon_notuse">order_coupon_notuse</string>
-    <string name="mall_statistics_create_order_create">order_create</string>
-    <string name="mall_statistics_create_order_dismiss">order_dismiss</string>
-    <string name="mall_statistics_create_order_invalid">order_invalid</string>
-    <string name="mall_statistics_create_order_invalid_addr">order_invalid_addr</string>
-    <string name="mall_statistics_create_order_invalid_addr_back">order_invalid_addr_back</string>
-    <string name="mall_statistics_create_order_invalid_addr_keep">order_invalid_addr_keep</string>
-    <string name="mall_statistics_create_order_invalid_back">order_invalid_back</string>
-    <string name="mall_statistics_create_order_submit">order_submit</string>
-    <string name="mall_statistics_create_pers_add">pers_add</string>
-    <string name="mall_statistics_create_pers_details_confirm">pers_details_confirm</string>
-    <string name="mall_statistics_create_pers_list">pers_list</string>
-    <string name="mall_statistics_create_pers_list_add">pers_list_add</string>
-    <string name="mall_statistics_create_pers_list_delete">pers_list_delete</string>
-    <string name="mall_statistics_create_pers_list_edit">pers_list_edit</string>
-    <string name="mall_statistics_create_price_details">price_details</string>
-    <string name="mall_statistics_home">mallHome</string>
-    <string name="mall_statistics_home_back">home_back</string>
-    <string name="mall_statistics_home_backtop_click">home_backtop_click</string>
-    <string name="mall_statistics_home_banner">home_banner</string>
-    <string name="mall_statistics_home_banner_search_click">home_search_banner_click</string>
-    <string name="mall_statistics_home_card_click">home_card_click</string>
-    <string name="mall_statistics_home_card_show">home_card_show</string>
-    <string name="mall_statistics_home_cart_click">home_cart_click</string>
-    <string name="mall_statistics_home_category">home_category</string>
-    <string name="mall_statistics_home_header_click">home_search_header_click</string>
-    <string name="mall_statistics_home_header_entryurl_click">home_header_entryurl_click</string>
-    <string name="mall_statistics_home_main_tab_click">home_main_tab_click</string>
-    <string name="mall_statistics_home_orderlist_click">home_orderlist_click</string>
-    <string name="mall_statistics_mine_ad">mine_ad</string>
-    <string name="mall_statistics_mine_back">mine_back</string>
-    <string name="mall_statistics_mine_fun_icon_click">mine_fun_icon_click</string>
-    <string name="mall_statistics_mine_homepage">mine_homepage</string>
-    <string name="mall_statistics_mine_notice">mine_notice</string>
-    <string name="mall_statistics_mine_order_icon_click">mine_order_icon_click</string>
-    <string name="mall_statistics_mine_page_name">mallMine</string>
-    <string name="mall_statistics_order_create">orderCreate</string>
-    <string name="mall_statistics_order_detail">orderDetail</string>
-    <string name="mall_statistics_order_list">orderList</string>
-    <string name="mall_statistics_orderdetails_cancel">orderdetails_cancel</string>
-    <string name="mall_statistics_orderdetails_cancel_booked">orderdetails_cancel_booked</string>
-    <string name="mall_statistics_orderdetails_confirm">orderdetails_confirm</string>
-    <string name="mall_statistics_orderdetails_customer_service">orderdetails_customer_service</string>
-    <string name="mall_statistics_orderdetails_delay">orderdetails_delay</string>
-    <string name="mall_statistics_orderdetails_delete">orderdetails_delete</string>
-    <string name="mall_statistics_orderdetails_detailed_rules">orderdetails_detailed_rules</string>
-    <string name="mall_statistics_orderdetails_express">orderdetails_express</string>
-    <string name="mall_statistics_orderdetails_frontpay">orderdetails_frontpay</string>
-    <string name="mall_statistics_orderdetails_frontpay_booked">orderdetails_frontpay_booked</string>
-    <string name="mall_statistics_orderdetails_item">orderdetails_item</string>
-    <string name="mall_statistics_orderdetails_pay">orderdetails_pay</string>
-    <string name="mall_statistics_orderdetails_rate">orderdetails_rate</string>
-    <string name="mall_statistics_orderdetails_remainingpay">orderdetails_remainingpay</string>
-    <string name="mall_statistics_orderdetails_share_coupon">orderdetails_share_coupon</string>
-    <string name="mall_statistics_orderdetails_shopDetail">orderdetails_shopDetail</string>
-    <string name="mall_statistics_orderdetails_showComment">orderdetails_showComment</string>
-    <string name="mall_statistics_orderdetails_waitComment">orderdetails_waitComment</string>
-    <string name="mall_statistics_orderlist_click_tab">orderlist_click_tab</string>
-    <string name="mall_statistics_orderlist_home_click">orderlist_home_click</string>
-    <string name="mall_statistics_orderlist_notice_click">orderlist_notice_click</string>
-    <string name="mall_statistics_orderlist_orderDetail">orderlist_orderDetail</string>
-    <string name="mall_statistics_orderlist_pay">orderlist_pay</string>
-    <string name="mall_statistics_orderlist_request">orderlist_request</string>
-    <string name="mall_statistics_orderlist_scheme">orderlist_scheme</string>
-    <string name="mall_statistics_orderlist_share_coupon">orderlist_share_coupon</string>
-    <string name="mall_statistics_orderlist_shopDetail">orderlist_shopDetail</string>
-    <string name="mall_statistics_orderlist_show_custom_service">orderlist_showCustomService</string>
-    <string name="mall_statistics_orderlist_slide_tab">orderlist_slide_tab</string>
-    <string name="mall_statistics_presale_choose_coupon">presale_choose_coupon</string>
-    <string name="mall_statistics_presale_coupon_list">presale_coupon_list</string>
-    <string name="mall_statistics_presale_coupon_notuse">presale_coupon_notuse</string>
-    <string name="mall_statistics_presale_order">presaleOrder</string>
-    <string name="mall_statistics_presale_order_dismiss">presale_order_dismiss</string>
-    <string name="mall_statistics_presale_pay_bargin">pay_bargin</string>
-    <string name="mall_statistics_presale_protocol_close">protocol_close</string>
-    <string name="mall_statistics_presale_protocol_details">protocol_details</string>
-    <string name="mall_statistics_presale_protocol_open">protocol_open</string>
-    <string name="mall_statistics_search">mallSearch</string>
-    <string name="mall_statistics_search_button_click">search_button_click</string>
-    <string name="mall_statistics_search_cancel">search_cancel</string>
-    <string name="mall_statistics_search_content_click">search_content_click</string>
-    <string name="mall_statistics_search_delete">search_delete</string>
-    <string name="mall_statistics_search_delete_all">search_delete_all</string>
-    <string name="mall_statistics_search_goods_tab">search_tab_click</string>
-    <string name="mall_statistics_search_history_click">search_history_click</string>
-    <string name="mall_statistics_search_ticket_tab">search_ticket_tab</string>
-    <string name="mall_statistics_shop_detail">shopDetail</string>
-    <string name="mall_statistics_shop_detail_shop_allproduct_product">shop_allproduct_product</string>
-    <string name="mall_statistics_shop_detail_shop_cart">shop_cart</string>
-    <string name="mall_statistics_shop_detail_shop_discover_article">shop_discover_article</string>
-    <string name="mall_statistics_shop_detail_shop_discover_tab">shop_discover_tab</string>
-    <string name="mall_statistics_shop_detail_shop_discover_video">shop_discover_video</string>
-    <string name="mall_statistics_shop_detail_shop_follow">shop_follow</string>
-    <string name="mall_statistics_shop_detail_shop_index_allproduct">shop_index_allproduct</string>
-    <string name="mall_statistics_shop_detail_shop_index_banner">shop_index_banner</string>
-    <string name="mall_statistics_shop_detail_shop_index_product">shop_index_product</string>
-    <string name="mall_statistics_shop_detail_shop_index_userSpace">shop_index_userSpace</string>
-    <string name="mall_statistics_shop_detail_shop_order">shop_order</string>
-    <string name="mall_statistics_shop_detail_shop_search">shop_search</string>
-    <string name="mall_statistics_shop_detail_shop_service">shop_service</string>
-    <string name="mall_statistics_shop_detail_shop_tab_click">shop_tab_click</string>
-    <string name="mall_statistics_shop_detail_shop_unfollow">shop_unfollow</string>
-    <string name="mall_statistics_shop_search">shopSearch</string>
-    <string name="mall_statistics_shop_search_result">shopSearchResult</string>
-    <string name="mall_statistics_shop_search_result_shop_search_filter">shop_searchResult_filter</string>
-    <string name="mall_statistics_shop_search_result_shop_search_filter_confirm">shop_searchResult_filterConfirm</string>
-    <string name="mall_statistics_shop_search_result_shop_search_filter_reset">shop_searchResult_filterReset</string>
-    <string name="mall_statistics_shop_search_result_shop_search_result">shop_search_result</string>
-    <string name="mall_statistics_shop_search_result_shop_search_sort">shop_searchResult_sort</string>
-    <string name="mall_statistics_shop_search_result_shop_search_style">shop_searchResult_style</string>
-    <string name="mall_statistics_shop_search_shop_search_go">shop_search_go</string>
-    <string name="mall_statistics_shop_search_shop_search_history">shop_search_history</string>
-    <string name="mall_statistics_shop_search_shop_search_sug">shop_search_sug</string>
-    <string name="mall_statistics_ticket_detail_map">ticketdetails_map</string>
-    <string name="mall_statistics_ticket_donation">ticketDonation</string>
-    <string name="mall_statistics_ticket_offline_count">ticket_autoalert</string>
-    <string name="mall_statistics_ticket_unexpire_list_historylist">ticket_headerclick</string>
-    <string name="mall_statistics_ticket_unexpire_list_ticket">ticket_details</string>
-    <string name="mall_statistics_unexpire_ticket_detail">ticketDetail</string>
-    <string name="mall_statistics_unexpire_ticket_list">ticket</string>
     <string name="mall_submit_address_add_new">添加新地址</string>
     <string name="mall_submit_address_delete_msg">确认删除该地址？</string>
     <string name="mall_submit_address_detail">详细地址</string>
@@ -4825,11 +4816,11 @@ X%2$s"</string>
     <string name="mall_unsupport_address_tips">以上%d件商品不支持该地址配送，请拆分下单</string>
     <string name="mall_upload_error">上传出错，请重试</string>
     <string name="manage">管理</string>
+    <string name="manage_model">管理模式</string>
     <string name="media_not_same_check">照片和视频不能同时选择</string>
     <string name="menu_copy">复制</string>
     <string name="menu_download_pause_all">全部暂停</string>
     <string name="menu_download_promo">【缓存】搬到这里啦~</string>
-    <string name="menu_download_promo_pref">menu_promo_download</string>
     <string name="menu_download_remove_selected">删除</string>
     <string name="menu_download_remux_selected">转MP4</string>
     <string name="menu_download_resume_all">全部开始</string>
@@ -4860,12 +4851,10 @@ X%2$s"</string>
     <string name="more_card_overlock">转发了%d次此动态</string>
     <string name="more_hot_comments">更多热门评论</string>
     <string name="more_hot_following">更多热门动态 >></string>
-    <string name="more_image">+%d</string>
     <string name="more_tab_history">观看历史</string>
     <string name="more_tab_live">更多直播</string>
     <string name="more_tab_recommend">为你推荐</string>
     <string name="more_tab_relative_recommend">相关推荐</string>
-    <string name="movie_index_dot">·</string>
     <string name="movie_index_empty">并没有这样的电影哦~!</string>
     <string name="movie_index_filter_area">地区 ：</string>
     <string name="movie_index_filter_category">风格 ：</string>
@@ -4910,6 +4899,7 @@ X%2$s"</string>
     <string name="music_bangumi_vote_count">%s人</string>
     <string name="music_batch_download_conform_message">是否确认缓存歌单全部歌曲？</string>
     <string name="music_batch_manage">批量操作</string>
+    <string name="music_batch_move">添加到</string>
     <string name="music_blacklist_add_action_success">加入黑名单成功!</string>
     <string name="music_blacklist_comment_desc">由于黑名单设置,该评论已被隐藏。</string>
     <string name="music_blacklist_nick_name">黑名单用户</string>
@@ -4954,13 +4944,19 @@ X%2$s"</string>
     <string name="music_contribution_verifying">审核中...</string>
     <string name="music_contributor_team">创作团队</string>
     <string name="music_count">%s首歌曲</string>
+    <string name="music_cover_text">封面</string>
     <string name="music_create_menu_title">创建歌单</string>
     <string name="music_create_new_menu">新建歌单</string>
     <string name="music_created_menu_title">创建的歌单</string>
     <string name="music_cteated_menu_section">创建的歌单 (%s)</string>
     <string name="music_date_relative_now_fmt">刚刚</string>
     <string name="music_default_menu_public_warning">所有人可见但无法搜索此歌单</string>
+    <string name="music_delete">删除</string>
+    <string name="music_delete_2">删除 (%d)</string>
+    <string name="music_delete_create_menu_confirm">确定要删除选中的歌单么？</string>
     <string name="music_delete_fav_box">删除收藏夹</string>
+    <string name="music_delete_menu_failed">哔哩哔哩：删除失败</string>
+    <string name="music_delete_menu_success">哔哩哔哩：删除成功</string>
     <string name="music_detail_fans">%s粉丝</string>
     <string name="music_dialog_cache_negative">取消</string>
     <string name="music_dialog_cache_positive">删除</string>
@@ -5000,6 +4996,8 @@ X%2$s"</string>
     <string name="music_downloaded_cannot_play_expired">由于版权方要求，会员到期后无法本地收听付费歌曲</string>
     <string name="music_downloaded_cannot_play_login">收听付费歌曲请先登录账号</string>
     <string name="music_downloaded_cannot_play_other">该账号不支持收听付费歌曲</string>
+    <string name="music_downloaded_fragment_title">音频缓存</string>
+    <string name="music_edit_created_menu">管理创建的歌单</string>
     <string name="music_edit_menu_title">编辑歌单</string>
     <string name="music_english_brackets" formatted="false">%1s(%2s)</string>
     <string name="music_error">电波无法到达呦</string>
@@ -5037,6 +5035,7 @@ X%2$s"</string>
 导入过程最多需要24小时。请稍后查看~"</string>
     <string name="music_fetch_success_title">操作成功</string>
     <string name="music_finding">查找中</string>
+    <string name="music_finish">完成</string>
     <string name="music_first">首发</string>
     <string name="music_fm">收音叽</string>
     <string name="music_fm_channel_changed">已成功切换到%s~</string>
@@ -5110,6 +5109,8 @@ X%2$s"</string>
     <string name="music_manage">管理</string>
     <string name="music_menu_comments_detail_title">歌单评论</string>
     <string name="music_menu_container_header_title">热门分类</string>
+    <string name="music_menu_cover_upload_failed">哔哩哔哩:封面上传失败</string>
+    <string name="music_menu_cover_upload_success">哔哩哔哩:封面上传成功</string>
     <string name="music_menu_create_time">%s</string>
     <string name="music_menu_delete_text">删除歌单</string>
     <string name="music_menu_desc_creator">创建者: %s</string>
@@ -5135,7 +5136,6 @@ X%2$s"</string>
     <string name="music_more_timing_close">定时关闭</string>
     <string name="music_myrecent_edit">编辑收藏夹</string>
     <string name="music_myrecent_manage">管理音频</string>
-    <string name="music_myrecent_manage_finish">完成</string>
     <string name="music_myrecent_select_count">(已选%d首)</string>
     <string name="music_myrecent_song_count">(共%d首)</string>
     <string name="music_native_song_play_all">播放全部</string>
@@ -5150,6 +5150,7 @@ X%2$s"</string>
     <string name="music_no_menu_desc">暂无简介</string>
     <string name="music_no_menus">你还没有收藏过歌单哦T_T</string>
     <string name="music_no_network_to_video">暂不可播放视频，请连接网络后重试</string>
+    <string name="music_no_take_photo_permission">拍照需要权限!</string>
     <string name="music_not_allow">未开启悬浮窗权限，暂停音频播放</string>
     <string name="music_not_cachable">版权受限</string>
     <string name="music_off_skip">已跳过下架音频</string>
@@ -5182,6 +5183,7 @@ X%2$s"</string>
     <string name="music_payment_protocol"><u>音乐月卡用户协议</u></string>
     <string name="music_payment_title">付费购买</string>
     <string name="music_pgc_singer">歌手：%s</string>
+    <string name="music_pick_photo">相册选图</string>
     <string name="music_play">播放</string>
     <string name="music_play_all">播放全部</string>
     <string name="music_play_failed">播放失败</string>
@@ -5208,6 +5210,7 @@ X%2$s"</string>
     <string name="music_recommend_voice_head">分类音频</string>
     <string name="music_relation_list_title">%s的相似歌曲</string>
     <string name="music_relation_list_title_2">相似歌曲</string>
+    <string name="music_request_camera">要允许 哔哩哔哩 拍摄照片吗？</string>
     <string name="music_request_storage_permissions">"哔哩哔哩被禁止访问你的存储设备，以下功能将不能正常使用：
 缓存视频、弹幕，保存视频截图以及分享图片等。
 
@@ -5301,11 +5304,14 @@ audio@bilibili.com"</string>
     <string name="music_song_list_favor_success">收藏成功</string>
     <string name="music_song_menu">歌单</string>
     <string name="music_song_menu_desc">简介</string>
+    <string name="music_sort_menu_failed">哔哩哔哩：排序失败</string>
+    <string name="music_sort_menu_success">哔哩哔哩：排序成功</string>
     <string name="music_start_download">开始缓存</string>
+    <string name="music_storge_progress" formatted="false">已使用%.2f , 可用空间%.2fG</string>
     <string name="music_struggling_loading">正在奋力加载中</string>
     <string name="music_swap">换一换</string>
     <string name="music_tab_app_name">音乐</string>
-    <string name="music_tag_pinned_bottom">music_tag_pinned_bottom</string>
+    <string name="music_take_photo">相机拍照</string>
     <string name="music_time_format_hour">%d小时前</string>
     <string name="music_time_format_mins">%d分钟前</string>
     <string name="music_title_select_lrc">选择歌词</string>
@@ -5370,7 +5376,6 @@ audio@bilibili.com"</string>
     <string name="mycenter_history_clear_loading">正在清空...</string>
     <string name="mycenter_item_text_favorites">收藏夹</string>
     <string name="mycenter_item_text_following">关注的人</string>
-    <string name="mycenter_item_text_histories">@string/title_histories</string>
     <string name="mycenter_item_text_offline_tasks">离线任务</string>
     <string name="mycenter_item_text_pay">消费记录</string>
     <string name="mycenter_item_text_setting">设置</string>
@@ -5378,6 +5383,7 @@ audio@bilibili.com"</string>
     <string name="mycenter_login_pwd_et_hint">请输入密码</string>
     <string name="mystery_up">神秘的UP主</string>
     <string name="nall_storage_not_exits">存储不可用!</string>
+    <string name="name_tutorials">实名认证</string>
     <string name="nav_answer">答题转正</string>
     <string name="nav_bottom_night">夜间</string>
     <string name="nav_bottom_settings">设置</string>
@@ -5435,10 +5441,13 @@ audio@bilibili.com"</string>
     <string name="no_data">什么都木有┑(￣Д ￣)┍</string>
     <string name="no_data_tips">╮(╯3╰)╭再怎么找也没有啦</string>
     <string name="no_default_player">没有默认播放器</string>
+    <string name="no_favour">"还没有人点赞
+给ta点第一个赞吧(^▽^)"</string>
     <string name="no_following">木有动态</string>
     <string name="no_interest">不感兴趣</string>
     <string name="no_more_data">没有更多内容啦</string>
     <string name="no_more_following">到达动态的尽头</string>
+    <string name="no_more_recommend_uppers">没有更多推荐了(T_T)</string>
     <string name="no_network">没有网络连接</string>
     <string name="no_network_tips">似乎已断开与互联网的连接</string>
     <string name="no_permission_to_load_more">( ´_ゝ｀)不能再继续往下滑了</string>
@@ -5451,7 +5460,6 @@ audio@bilibili.com"</string>
     <string name="nope">不用了</string>
     <string name="norification_delete">删除</string>
     <string name="norification_delete_confirm">删除该条通知后将无法恢复，是否继续？</string>
-    <string name="not_available">N/A</string>
     <string name="not_available_simple">不可用</string>
     <string name="not_bind_phone">未绑定手机</string>
     <string name="not_interested">不感兴趣</string>
@@ -5494,6 +5502,19 @@ audio@bilibili.com"</string>
     <string name="obtain_failed">获取失败</string>
     <string name="obtaining">获取中</string>
     <string name="obtaining_captcha">正在获取...</string>
+    <string name="offline_downloading_total_count">%1$s 个内容</string>
+    <string name="offline_downloading_unicom">免流量 %1$s/s</string>
+    <string name="offline_empty_text">这里还什么都没有呢～</string>
+    <string name="offline_pgc_type_bangumi">番剧</string>
+    <string name="offline_pgc_type_documentary">纪录片</string>
+    <string name="offline_pgc_type_domestic">国漫</string>
+    <string name="offline_pgc_type_movie">电影</string>
+    <string name="offline_pgc_type_teleplay">电视剧</string>
+    <string name="offline_storage_primary">主存储:已用%1$s,可用%2$s</string>
+    <string name="offline_storage_secondary">副存储:已用%1$s,可用%2$s</string>
+    <string name="offline_title_downloaded_audio">音频缓存</string>
+    <string name="offline_title_downloaded_video">视频缓存</string>
+    <string name="offline_title_downloading">正在缓存</string>
     <string name="offline_video_upload_dialog_msg">正在上传诊断日志, 请稍候…</string>
     <string name="offline_video_upload_failed">日志上传失败</string>
     <string name="offline_video_upload_success">日志上传成功</string>
@@ -5529,7 +5550,6 @@ audio@bilibili.com"</string>
     <string name="others">其他</string>
     <string name="over_publish_num">已超出规定字数了哦~</string>
     <string name="pack_up">收起</string>
-    <string name="package_name">tv.danmaku.bili</string>
     <string name="page_load_fail">还没有人哦...</string>
     <string name="paint_activity_detail">活动详情</string>
     <string name="paint_cover">封面</string>
@@ -5701,10 +5721,6 @@ audio@bilibili.com"</string>
     <string name="password_invalid">密码不合法</string>
     <string name="password_retry_too_many">密码错误次数太多</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
-    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
-    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
-    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
-    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="pause">暂停</string>
     <string name="pay">收银台</string>
     <string name="pay_bangumi_options_1">5B币</string>
@@ -5733,6 +5749,7 @@ audio@bilibili.com"</string>
     <string name="pay_coins_five_minutes_delay">每5分钟只能对同一视频评价一次</string>
     <string name="pay_coins_how_to_get_coins">如何获取硬币 ？</string>
     <string name="pay_coins_illegal_number">非法投币数量</string>
+    <string name="pay_coins_like">同时好评内容</string>
     <string name="pay_coins_not_bind_phone">没有绑定手机</string>
     <string name="pay_coins_not_enough">你的硬币余额不足哦</string>
     <string name="pay_coins_not_enough2">硬币不足</string>
@@ -5818,6 +5835,7 @@ TAT"</string>
     <string name="pay_wallet_total_balance">总余额</string>
     <string name="pay_wallet_transaction_details_title">交易记录</string>
     <string name="pay_wallet_unavailable_title">不可用余额</string>
+    <string name="paycoin_sync_like">同时好评内容</string>
     <string name="pegasus_all">全部</string>
     <string name="pegasus_banner_reload">重新加载</string>
     <string name="pegasus_ellipsis">%s…</string>
@@ -6168,8 +6186,6 @@ TAT"</string>
     <string name="pref_title_tools_setting">工具设置</string>
     <string name="pref_title_view_sina_video_app">更多应用推荐</string>
     <string name="pref_title_wifi_auto_update">WIFI下自动准备安装包</string>
-    <string name="pref_toggle_report_key">pref_toggle_report_key</string>
-    <string name="pref_update_info">pref_update_info</string>
     <string name="preference_default_summary">默认</string>
     <string name="preference_token_invalid">账号信息已过期，请重新登录</string>
     <string name="prepare_temp_dir_error">创建临时目录失败!</string>
@@ -6258,7 +6274,6 @@ TAT"</string>
     <string name="quit">退出</string>
     <string name="rank_barrage_num">%s弹幕</string>
     <string name="rank_daily">日榜</string>
-    <string name="rank_header">rankHeader</string>
     <string name="rank_latest">最新</string>
     <string name="rank_list">榜单</string>
     <string name="rank_month">月榜</string>
@@ -6296,6 +6311,8 @@ TAT"</string>
     <string name="recharge_reminder_amount_title">可用余额</string>
     <string name="recommend">推荐</string>
     <string name="recommend_bangumi">推荐番剧</string>
+    <string name="recommend_change">换一换</string>
+    <string name="recommend_uppers">与TA相似的用户</string>
     <string name="recommend_video_title_guest">Ta推荐的视频</string>
     <string name="recommend_video_title_mine">我推荐的视频</string>
     <string name="recommend_wish_switch_text">换一批</string>
@@ -6378,6 +6395,7 @@ TAT"</string>
     <string name="request_sdcard_write_permission">请允许%s使用存储权限!</string>
     <string name="reselect">"选择的目录不可读写。
 请重新选择!"</string>
+    <string name="reselect_video_acitvity">重新选择活动</string>
     <string name="resend_captcha">重发验证码</string>
     <string name="resend_count_down">%d秒后可重发</string>
     <string name="resend_msg_left_time">%dS后重发</string>
@@ -6417,6 +6435,7 @@ TAT"</string>
     <string name="sdcard_space_not_enough">SD卡存储空间不足！</string>
     <string name="sdk_error">SDK错误！</string>
     <string name="search">搜索</string>
+    <string name="search_add_to_watch_later">添加到稍后再看</string>
     <string name="search_bangumi_prefix_actor">演员：%1$s</string>
     <string name="search_bangumi_result_button_play">播放</string>
     <string name="search_bangumi_result_rating_count">%1$s人</string>
@@ -6437,7 +6456,6 @@ TAT"</string>
     <string name="search_hot_word">大家都在搜</string>
     <string name="search_index_card_converge_default_title">专题</string>
     <string name="search_input_too_long">您输入的字数过长</string>
-    <string name="search_layout">searchLayout</string>
     <string name="search_load_failed_with_click">加载失败,请点击重新尝试</string>
     <string name="search_loading">加载中…</string>
     <string name="search_menu_title">Search</string>
@@ -6486,6 +6504,7 @@ TAT"</string>
     <string name="select_all">全选</string>
     <string name="select_area_title">选择分类</string>
     <string name="select_by_album">从相册选择</string>
+    <string name="selected_item_number_fmt">已选%s项</string>
     <string name="send">发送</string>
     <string name="send_again">重发</string>
     <string name="send_failed">发送失败</string>
@@ -6508,6 +6527,8 @@ TAT"</string>
     <string name="share_SINA">新浪微博</string>
     <string name="share_WeChat">微信</string>
     <string name="share_cant_jump_tips">啊哦 这个分享好像打不开呢</string>
+    <string name="share_content_default">Bilibili (゜-゜)つロ 乾杯~</string>
+    <string name="share_content_has_url">分享链接</string>
     <string name="share_dialog_title">分享直播至</string>
     <string name="share_entry_comment_hint">说说你的想法...</string>
     <string name="share_entry_title">分享至</string>
@@ -6575,7 +6596,6 @@ TAT"</string>
     <string name="sobot_already_save_to_picture">已保存到系统相册</string>
     <string name="sobot_already_transfer_to_customer_service">您已经转人工</string>
     <string name="sobot_app_name">智齿sdk</string>
-    <string name="sobot_appkey" />
     <string name="sobot_appkey_is_null">您的AppKey为空</string>
     <string name="sobot_attach_take_pic">拍照</string>
     <string name="sobot_back">返回</string>
@@ -6589,7 +6609,6 @@ TAT"</string>
     <string name="sobot_choice_test">选择咨询内容</string>
     <string name="sobot_clear_history_message">清空聊天记录</string>
     <string name="sobot_close_session">结束本次对话？</string>
-    <string name="sobot_color_custom_name">\#888888</string>
     <string name="sobot_colse">关闭</string>
     <string name="sobot_completed_the_evaluation">您已完成评价</string>
     <string name="sobot_conntype_connect_success">连接成功</string>
@@ -6643,7 +6662,6 @@ TAT"</string>
     <string name="sobot_phone_dialog_hint">您的手机号码格式错误</string>
     <string name="sobot_pic_select_again">请重新选择或拍摄</string>
     <string name="sobot_pic_size_should_be_less_than_three">图片大小需小于3M</string>
-    <string name="sobot_please">SOBOT SDK 2.3.0</string>
     <string name="sobot_please_evaluate">请您对 [%1$s] 进行评价</string>
     <string name="sobot_please_evaluate_this_service">请您对本次服务进行评价</string>
     <string name="sobot_please_load">请上传附件</string>
@@ -6763,7 +6781,6 @@ TAT"</string>
     <string name="sso_check_login_processing">正在获取登录状态…</string>
     <string name="start_draw_back">消息撤回中</string>
     <string name="start_live">开始直播</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stick">置顶</string>
     <string name="stick_success_msg">置顶成功</string>
     <string name="sticker_add_failed">%d个表情添加失败！</string>
@@ -7047,6 +7064,7 @@ TAT"</string>
     <string name="tip_too_large_image">您选择的图片超过%dM，无法发送，请重选</string>
     <string name="tip_topic_not_exist">无效话题</string>
     <string name="tip_try_remaining">当前需要完成实名认证后开播～</string>
+    <string name="tip_try_tutorials">需要通过实名认证才可以开播哦~</string>
     <string name="tip_unable_to_connect_server">无法连接到直播间</string>
     <string name="tip_unfollow_failed">取消关注失败</string>
     <string name="tip_unfollow_succeed">取消关注成功</string>
@@ -7416,7 +7434,7 @@ TAT"</string>
     <string name="unicom_warning_playing_with_3rd">由于包含第三方源，播放将产生计费流量</string>
     <string name="unicom_warning_playing_with_metered">计费网络环境下，播放将产生流量费用</string>
     <string name="unicom_warning_playing_with_metered_fmt">本次完整播放将产生约 %s 的计费流量</string>
-    <string name="unlock_up_to_degree">达到%s级可解锁</string>
+    <string name="unlock_up_to_degree">达到%d级可解锁</string>
     <string name="unpass_medal">审核未通过</string>
     <string name="unselect_all">取消全选</string>
     <string name="unsetting_medal">未设置</string>
@@ -7432,7 +7450,7 @@ TAT"</string>
     <string name="update_cannot_find_web">没有找到浏览器, 请手动打开app.bilibili.com下载更新</string>
     <string name="update_confirm">立即更新</string>
     <string name="update_confirm_free_data">免流量更新</string>
-    <string name="update_confirm_incremental">增量更新</string>
+    <string name="update_confirm_incremental_fmt">增量更新(%s)</string>
     <string name="update_gray_test">石头门选中并邀请您使用预览版</string>
     <string name="update_ignore">忽略此版本的更新</string>
     <string name="update_incremental_fail">增量升级失败, 切换全量升级</string>
@@ -7472,7 +7490,7 @@ TAT"</string>
     <string name="upper_action_done">完成</string>
     <string name="upper_activity_fans_number">活跃粉丝数</string>
     <string name="upper_ad">广告</string>
-    <string name="upper_add_for_dir">从文件夹添加</string>
+    <string name="upper_add_for_dir">文件夹</string>
     <string name="upper_add_video">+ 添加视频</string>
     <string name="upper_all">全部</string>
     <string name="upper_all_article">全部专栏</string>
@@ -7636,27 +7654,28 @@ TAT"</string>
 继续加油投稿并和粉丝们多多互动哦~"</string>
     <string name="upper_intercepted_resolution">已截取分辨率：</string>
     <string name="upper_is_elec">已充电</string>
-    <string name="upper_l_00">00:00</string>
     <string name="upper_l_60_60">60/60</string>
     <string name="upper_l_add">添加</string>
     <string name="upper_l_add_music">添加音乐</string>
     <string name="upper_l_alltime">总时长</string>
     <string name="upper_l_caption">文字</string>
+    <string name="upper_l_capture_filter_tip">横滑切换滤镜</string>
     <string name="upper_l_change">更换</string>
     <string name="upper_l_click_tip">点击片段进行剪辑变速</string>
     <string name="upper_l_danmu_delete">确定删除所选弹幕？</string>
-    <string name="upper_l_div">/</string>
+    <string name="upper_l_empty">无</string>
     <string name="upper_l_filter">滤镜</string>
     <string name="upper_l_filter_none">原图</string>
     <string name="upper_l_folder_add">文件夹添加</string>
     <string name="upper_l_font">字体</string>
     <string name="upper_l_music">音乐</string>
-    <string name="upper_l_music_start_set">设置音乐起点</string>
     <string name="upper_l_origin_music">原声</string>
     <string name="upper_l_record">录音</string>
     <string name="upper_l_setting">设置</string>
     <string name="upper_l_sticker">贴纸</string>
     <string name="upper_l_tip_wait_mux_done">请等待视频生成完成</string>
+    <string name="upper_l_transition">转场</string>
+    <string name="upper_l_transition_download_fail">下载失败_(:3」∠)_，请检查网络或重试…</string>
     <string name="upper_l_width">宽度</string>
     <string name="upper_l_zihao">字号</string>
     <string name="upper_label">标签</string>
@@ -7705,7 +7724,6 @@ TAT"</string>
     <string name="upper_no_network">没有可用的网络连接</string>
     <string name="upper_no_permission_to_load_more">( ´_ゝ｀)不能再继续往下滑了</string>
     <string name="upper_no_relative_av">视频不相关</string>
-    <string name="upper_no_title" />
     <string name="upper_notice_dialog_recordFileError">录音文件错误，请确认录音权限已开启~</string>
     <string name="upper_only_show_hide_comment">只显示隐藏的评论</string>
     <string name="upper_or">或</string>
@@ -7714,6 +7732,9 @@ TAT"</string>
     <string name="upper_partition">分区</string>
     <string name="upper_personal_attacks">人身攻击</string>
     <string name="upper_photograph">拍照</string>
+    <string name="upper_picker_item_num_restrict_tips">最多选择9个视频哦</string>
+    <string name="upper_picker_tab_image">图片</string>
+    <string name="upper_picker_tab_video">视频</string>
     <string name="upper_placeholder">-</string>
     <string name="upper_play">播放</string>
     <string name="upper_player_map_distribution">(播放用户地区来源分布占比)</string>
@@ -7773,7 +7794,7 @@ TAT"</string>
     <string name="upper_type">类型</string>
     <string name="upper_uploading">上传中…</string>
     <string name="upper_variable_speed">变速</string>
-    <string name="upper_video">视频</string>
+    <string name="upper_video">相册</string>
     <string name="upper_video_data_overview">视频数据总览</string>
     <string name="upper_video_drafts">视频草稿</string>
     <string name="upper_video_file_no_exist_tip">文件不存在:</string>
@@ -7783,7 +7804,6 @@ TAT"</string>
     <string name="upper_wait_a_jiff">稍等一下…</string>
     <string name="upper_warfare">引战</string>
     <string name="upper_yesterday">昨天</string>
-    <string name="upper_zero_minute">00:00</string>
     <string name="user">用户</string>
     <string name="user_feedback">用户反馈</string>
     <string name="user_mark_cartoon">投稿了漫画</string>
@@ -7824,6 +7844,7 @@ TAT"</string>
     <string name="video_capture_failed_dlg_msg_need_upgrade">您的APP版本过低，无法正常使用拍摄功能，请升级到最新版本</string>
     <string name="video_charge_me">（我）</string>
     <string name="video_charge_title">当前作品</string>
+    <string name="video_choose_activity">选择活动</string>
     <string name="video_clip_delete">是否删除视频？</string>
     <string name="video_clip_disappeared">肥肠抱歉，这个小视频不存在了 (,,Ծ‸Ծ,,)</string>
     <string name="video_clip_hard_loading">还在很努力地加载ing (..•˘_˘•..)</string>
@@ -7856,7 +7877,10 @@ TAT"</string>
     <string name="video_detail_recommend_message_cancel">取消好评</string>
     <string name="video_detail_recommend_message_error">好评失败</string>
     <string name="video_detail_recommend_message_success">好评成功</string>
+    <string name="video_download_bottom_delete">删除</string>
+    <string name="video_download_bottom_delete_count">删除(%1$s)</string>
     <string name="video_download_cancel_all">取消全选</string>
+    <string name="video_download_check_all">全选</string>
     <string name="video_download_choose_all">全部选择</string>
     <string name="video_download_danmaku_cancel_prompt">正在取消更新弹幕</string>
     <string name="video_download_danmaku_no_internet_prompt">更新失败</string>
@@ -7879,6 +7903,7 @@ TAT"</string>
     <string name="video_download_manager_video_damaged_negative">   我知道了   </string>
     <string name="video_download_manager_video_damaged_positive">   重新缓存   </string>
     <string name="video_download_manager_video_record_toast">已添加到缓存列列表</string>
+    <string name="video_download_page_count">%1$s个视频</string>
     <string name="video_download_prompt_confirm">查看任务</string>
     <string name="video_download_prompt_downloaded">当前视频已缓存</string>
     <string name="video_download_prompt_downloading">当前视频已添加至缓存任务中</string>
@@ -7906,7 +7931,17 @@ TAT"</string>
     <string name="video_edit_failed_dlg_positive_btn_hint">我知道了</string>
     <string name="video_edit_menu_draft">存草稿</string>
     <string name="video_edit_unknown_artist">未知艺术家</string>
+    <string name="video_editor_cancel_loop">取消循环</string>
+    <string name="video_editor_download_failed">下载失败…</string>
+    <string name="video_editor_downloading">下载中…</string>
+    <string name="video_editor_guide_bgm_cancel_loop">默认使用循环，取消后进入多段编辑</string>
+    <string name="video_editor_indicator_add_music">从指针处添加音乐</string>
+    <string name="video_editor_long_press_can_drag">长按音乐片段可左右拖动</string>
+    <string name="video_editor_loop_for_start_point">将从视频起始点开始循环</string>
+    <string name="video_editor_music_time">设置音乐起点: %1$s/%2$s</string>
+    <string name="video_editor_not_add_less_one_second">时长少于1s时不可添加</string>
     <string name="video_editor_show_lrc">提词</string>
+    <string name="video_editor_single_loop">单曲循环</string>
     <string name="video_elec_num_fmt">%s 电池</string>
     <string name="video_favored">帮你收藏好了哟~(・ω・)</string>
     <string name="video_favored_already">已经收藏过了(=・ω・=)</string>
@@ -8083,7 +8118,9 @@ TAT"</string>
     <string name="widget_guard_title_1">总督 %s</string>
     <string name="widget_guard_title_2">提督 %s</string>
     <string name="widget_guard_title_3">舰长 %s</string>
+    <string name="widget_live_cancel">取消</string>
     <string name="widget_live_close_tips">关闭提示</string>
+    <string name="widget_live_ensure">确定</string>
     <string name="widget_live_enter_live_room">进入直播间</string>
     <string name="widget_live_room_manager">房管</string>
     <string name="widget_vip_month">月费老爷</string>
@@ -8107,7 +8144,6 @@ TAT"</string>
     <string name="xplayer_live_input_danmaku_tips">请输入弹幕~</string>
     <string name="xplayer_live_options_title_background_music_enabled_233">后台</string>
     <string name="year">年</string>
-    <string name="year_specific">%1$d-%2$d-%3$d</string>
     <string name="year_vip">年度大会员</string>
     <string name="years_ago">%1$d年前</string>
     <string name="yes">是</string>

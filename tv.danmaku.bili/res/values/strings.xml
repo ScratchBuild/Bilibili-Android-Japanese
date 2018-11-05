@@ -6030,7 +6030,7 @@ TAT"</string>
     <string name="pref_summary_danmaku_engine_v1">传统弹幕引擎</string>
     <string name="pref_summary_danmaku_force_gpu_render">部分设备会导致视频延迟</string>
     <string name="pref_summary_danmaku_hide_by_default">你确定？</string>
-    <string name="pref_summary_danmaku_style_bold">部分字体无效或导致弹幕卡顿</string>
+    <string name="pref_summary_danmaku_style_bold">部分字体可能不支持</string>
     <string name="pref_summary_danmaku_text_auto">自动选择</string>
     <string name="pref_summary_danmaku_text_none">普通（最快）</string>
     <string name="pref_summary_danmaku_text_projection">45°投影（实验性）</string>

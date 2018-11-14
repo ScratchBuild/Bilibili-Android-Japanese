@@ -68,7 +68,7 @@
         <item>畅销榜</item>
         <item>期待榜</item>
         <item>口碑榜</item>
-        <item>上升最快</item>
+        <item>新游榜</item>
     </string-array>
     <string-array name="bplayer_preloading_funny_tips_entries">
         <item>人人为弹幕，弹幕为人人。</item>
